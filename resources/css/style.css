@@ -37,6 +37,10 @@ header {
   width: 150px;
 }
 
+.wplogo span {
+  padding-top: 100px;
+}
+
 .logo {
   text-align: center;
   flex-direction: row;
