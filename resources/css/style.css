@@ -1,16 +1,25 @@
 html,
 body {
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Times New Roman", serif;
   font-size: 16px;
 }
 
 h1 {
   font-size: 1rem;
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;
 }
 
 h2 {
   font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 /* Header Section */
@@ -40,6 +49,7 @@ header {
 
 .wplogo span {
   padding-top: 85px;
+  padding-left: 5px;
 }
 
 .logo {
@@ -72,7 +82,7 @@ nav {
 }
 
 nav span {
-  padding: 0px 10px;
+  padding: 0px 18px;
 }
 
 nav a {
@@ -173,5 +183,98 @@ nav a:active {
     display: flex;
     padding-left: 8px;
     border-bottom: 1px solid gray;
+  }
+}
+
+/* Main Lesson Section */
+
+.lesson {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  flex-grow: 1;
+  width: 160px;
+}
+
+.ad160 {
+  flex-grow: 1;
+  text-align: right;
+  width: 160px;
+}
+
+.ad120 {
+  display: none;
+  flex-grow: 1;
+  width: 120px;
+}
+
+.main {
+  width: 648px;
+  padding: 10px 10px 10px 10px;
+}
+
+.ad463 {
+  display: none;
+}
+
+.ad320 {
+  display: none;
+}
+
+@media only screen and (max-width: 925px) and (min-width: 701px) {
+  .ad160 {
+    display: none;
+    }
+  .ad120 {
+    display: block;
+  }
+  .left {
+    display: none;
+  }
+  .main {
+    padding: 10px 10px 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 701px) and (min-width: 463px) {
+  .ad160 {
+    display: none;
+    }
+  .ad120 {
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+  .main {
+    padding: 10px 10px 10px 10px;
+  }
+  .ad463 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 462px) {
+  .ad160 {
+    display: none;
+    }
+  .ad120 {
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+  .main {
+    padding: 10px 10px 10px 10px;
+  }
+  .ad463 {
+    display: none;
+    }
+  .ad320 {
+    display: flex;
+    justify-content: center;
   }
 }
