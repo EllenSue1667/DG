@@ -119,6 +119,11 @@ nav a:active {
   align-items: center;
 }
 
+.altlogo a:hover,
+.altlogo a:active {
+  text-decoration: none;
+}
+
 .Daily {
   font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
@@ -132,7 +137,27 @@ nav a:active {
   align-items: center;
 }
 
-@media only screen and (max-width: 750px) {
+.shopping {
+  flex-grow: 1;
+  text-align: right;
+  color: rgba(68, 68, 70, 1);
+  font-size: 1.9rem;
+  margin-top: 7px;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.shopping a {
+  color: rgba(68, 68, 70, 1);
+}
+
+@media only screen and (max-width: 850px) and (min-width: 701px) {
+  .wplogo {
+    width: 164px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .header {
     display: none;
   }
