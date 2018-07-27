@@ -35,10 +35,7 @@ header {
 .wplogo img{
   height: auto;
   width: 150px;
-}
-
-.wplogo span {
-  padding-top: 100px;
+  padding-bottom: 5px;
 }
 
 .logo {
