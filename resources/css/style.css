@@ -1,0 +1,147 @@
+html,
+body {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/* Header Section */
+
+header {
+
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.wplogo {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 2px;
+  width: 194px;
+}
+
+.wplogo img{
+  height: auto;
+  width: 150px;
+}
+
+.logo {
+  text-align: center;
+  flex-direction: row;
+  padding: 3px 0px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  text-align: center;
+  justify-content: center;
+}
+
+.cart {
+  text-align: right;
+  flex-direction: row;
+  padding: 2px 2px;
+  width: 194px;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  border-top: solid 1px hsla(60, 100%, 25%, 1);
+  border-bottom: solid 1px hsla(60, 100%, 25%, 1);
+  justify-content: center;
+}
+
+nav span {
+  padding: 0px 10px;
+}
+
+nav a {
+  color: hsla(60, 100%, 25%, 1);
+}
+
+nav span:hover,
+nav span:active {
+  background-color: hsla(60, 100%, 25%, .65);
+  color: white;
+}
+
+nav a:hover,
+nav a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.altheader {
+  display: none;
+
+}
+
+.dropdown {
+  font-family: "Times New Roman";
+  font-size: 2rem;
+  border: hsla(60, 100%, 25%, 1);
+  margin: 0px 0px;
+
+}
+
+.caret {
+
+}
+
+.altlogo {
+  background-image: url(../images/pensm.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 45px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.altlogo span {
+  align-items: center;
+  color: hsla(60, 100%, 25%, 1);
+  align-items: center;
+}
+
+.Daily {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  padding-left: 25px;
+  align-items: center;
+}
+
+.Grammar {
+  font-size: 2.2rem;
+  font-family: 'Dancing Script', cursive;
+  align-items: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .altheader {
+    display: flex;
+    padding-left: 8px;
+    border-bottom: 1px solid gray;
+  }
+}
