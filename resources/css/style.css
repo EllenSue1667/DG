@@ -237,7 +237,7 @@ nav a:active {
   border: lightgray 1px solid;
 }
 
-.collapse b {
+.correct {
   font-weight: bold;
   color: rgba(172, 17, 17, 1);
 }
@@ -281,6 +281,7 @@ nav a:active {
   .ad463 {
     display: flex;
     justify-content: center;
+    border-bottom: lightgray 1px solid;
   }
 }
 
@@ -303,5 +304,6 @@ nav a:active {
   .ad320 {
     display: flex;
     justify-content: center;
+    border-bottom: lightgray 1px solid;
   }
 }
