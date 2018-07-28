@@ -258,12 +258,15 @@ nav a:active {
     }
   .ad120 {
     display: block;
+    text-align: right;
+    width: 120px;
   }
   .left {
     display: none;
   }
   .main {
     padding: 10px 10px 10px 20px;
+    flex-grow: 1;
   }
 }
 
