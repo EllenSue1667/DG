@@ -104,8 +104,35 @@
         <p>Verbs are the most important words in a sentence. Verbs are the first of the eight parts of speech that we will be studying. Most verbs are action words, but a few verbs indicate state of being or existence. The first lessons will be about verbs, and how they are recognized and used.</p>
         <b>Instructions:</b> Find the verbs in the following sentences. They are action verbs.</p>
         <p>1. The wolf ran across the sand.</p>
+        <div class="answer">
+            <button type="button" class="btn1 btn-default" data-toggle="collapse" data-target="#demo1">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo1" class="collapse">
+            The wolf <b>ran</b> across the sand.
+          </div>
+        </div>
+
         <p>2. Sit down.</p>
+        <div class="answer">
+            <button type="button" class="btn2 btn-default" data-toggle="collapse" data-target="#demo2">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo2" class="collapse">
+            Sit <b>down</b>.
+          </div>
+        </div>
+
         <p>3. The dog barked at the man.</p>
+        <div class="answer">
+            <button type="button" class="btn3 btn-default" data-toggle="collapse" data-target="#demo3">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo3" class="collapse">
+            The dog <b>arked</b> at the man.
+          </div>
+        </div>
+
       </div>
       <div class="ad160">
         <script type="text/javascript"><!--
@@ -133,6 +160,48 @@
       </div>
     </div>
 
+
+    <script>
+    $(document).ready(function(){
+      $("#demo1").on("hide.bs.collapse", function(){
+        $(".btn1").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo1").on("show.bs.collapse", function(){
+        $(".btn1").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo2").on("hide.bs.collapse", function(){
+        $(".btn2").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo2").on("show.bs.collapse", function(){
+        $(".btn2").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo3").on("hide.bs.collapse", function(){
+        $(".btn3").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo3").on("show.bs.collapse", function(){
+        $(".btn3").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+
+    <script>
+    $(document).ready(function(){
+      $("#menu1").on("dropdown", function(){
+        $(".btn").html('<span class="btn btn-default dropdown-toggle"></span>');
+      });
+      $("#menu1").on("dropdown", function(){
+        $(".btn").html('<span class="btn btn-default dropdown-toggle"></span>');
+      });
+    });
+    </script>
 
 
   </body>
