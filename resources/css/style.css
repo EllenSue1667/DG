@@ -376,8 +376,12 @@ nav a:active {
   display: none;
 }
 
+.ad320f {
+  display: none;
+}
+
 @media only screen and (max-width: 728px) and (min-width: 469px) {
-  .ad728f {
+  .ad728 {
     display: none;
   }
   .ad468f {
