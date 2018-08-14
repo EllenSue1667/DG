@@ -342,6 +342,10 @@ nav a:active {
   display: none;
 }
 
+.symbol {
+  display: none;
+}
+
 .prev {
   text-align: left;
   width: 120px;
@@ -380,6 +384,8 @@ nav a:active {
   display: none;
 }
 
+
+
 @media only screen and (max-width: 728px) and (min-width: 469px) {
   .ad728 {
     display: none;
@@ -398,16 +404,21 @@ nav a:active {
   .copyright {
     display: none;
   }
+  .symbol {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+  }
   .copyrightalt {
     display: flex;
     padding-left: 5px;
     font-size: 0.7rem;
   }
   .prev {
-    width: 50%;
+    width: 40%;
   }
   .next {
-    width: 50%;
+    width: 40%;
   }
 
 }
@@ -436,9 +447,14 @@ nav a:active {
     font-size: 0.7rem;
   }
   .prev {
-    width: 50%;
+    width: 40%;
   }
   .next {
-    width: 50%;
+    width: 40%;
+  }
+  .symbol {
+    display: flex;
+    width: 20%;
+    justify-content: center;
   }
 }
