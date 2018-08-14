@@ -385,8 +385,41 @@ nav a:active {
 }
 
 
+@media only screen and (max-width: 729px) and (min-width: 701px) {
+  .ad728 {
+    display: none;
+  }
+  .ad468f {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .ad320f {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .symbol {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+  }
+  .copyrightalt {
+    display: flex;
+    padding-left: 10px;
+    font-size: 0.7rem;
+    padding-top: 5px;
+  }
+  .prev {
+    width: 40%;
+  }
+  .next {
+    width: 40%;
+  }
+}
 
-@media only screen and (max-width: 728px) and (min-width: 469px) {
+@media only screen and (max-width: 700px) and (min-width: 469px) {
   .ad728 {
     display: none;
   }
@@ -420,7 +453,6 @@ nav a:active {
   .next {
     width: 40%;
   }
-
 }
 
 @media only screen and (max-width: 468px) {
@@ -444,7 +476,8 @@ nav a:active {
   .copyrightalt {
     display: flex;
     padding-left: 5px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    color: gray;
   }
   .prev {
     width: 40%;
