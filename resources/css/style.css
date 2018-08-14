@@ -385,7 +385,7 @@ nav a:active {
 }
 
 
-@media only screen and (max-width: 729px) and (min-width: 701px) {
+@media only screen and (max-width: 728px) and (min-width: 701px) {
   .ad728 {
     display: none;
   }
@@ -393,6 +393,8 @@ nav a:active {
     display: flex;
     text-align: center;
     justify-content: center;
+    border-bottom: lightgray 1px solid;
+    width: 100%;
   }
   .ad320f {
     display: none;
@@ -409,7 +411,7 @@ nav a:active {
 
 }
 
-@media only screen and (max-width: 700px) and (min-width: 469px) {
+@media only screen and (max-width: 700px) and (min-width: 468px) {
   .ad728 {
     display: none;
   }
@@ -417,6 +419,8 @@ nav a:active {
     display: flex;
     text-align: center;
     justify-content: center;
+    border-bottom: lightgray 1px solid;
+    width: 100%;
   }
   .ad320f {
     display: none;
@@ -447,7 +451,7 @@ nav a:active {
   }
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 467px) {
   .ad728 {
     display: none;
   }
@@ -458,6 +462,8 @@ nav a:active {
     display: flex;
     text-align: center;
     justify-content: center;
+    border-bottom: lightgray 1px solid;
+    width: 100%;
   }
   .footer {
     margin-top: 40px;
