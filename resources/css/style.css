@@ -387,6 +387,7 @@ nav a:active {
   .ad468f {
     display: flex;
     text-align: center;
+    justify-content: center;
   }
   .ad320f {
     display: none;
@@ -421,6 +422,7 @@ nav a:active {
   .ad320f {
     display: flex;
     text-align: center;
+    justify-content: center;
   }
   .footer {
     margin-top: 40px;
