@@ -377,7 +377,7 @@ nav a:active {
 }
 
 @media only screen and (max-width: 728px) and (min-width: 469px) {
-  .ad728 {
+  .ad728f {
     display: none;
   }
   .ad468f {
