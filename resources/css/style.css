@@ -244,7 +244,7 @@ nav a:active {
   font-style: italic;
 }
 
-.ad463 {
+.ad468 {
   display: none;
 }
 
@@ -270,7 +270,7 @@ nav a:active {
   }
 }
 
-@media only screen and (max-width: 701px) and (min-width: 463px) {
+@media only screen and (max-width: 701px) and (min-width: 469px) {
   .ad160 {
     display: none;
     }
@@ -283,14 +283,14 @@ nav a:active {
   .main {
     padding: 10px 10px 10px 10px;
   }
-  .ad463 {
+  .ad468 {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
   }
 }
 
-@media only screen and (max-width: 462px) {
+@media only screen and (max-width: 468px) {
   .ad160 {
     display: none;
     }
@@ -303,7 +303,7 @@ nav a:active {
   .main {
     padding: 10px 10px 10px 10px;
   }
-  .ad463 {
+  .ad468 {
     display: none;
     }
   .ad320 {
@@ -338,11 +338,17 @@ nav a:active {
   padding-bottom: 10px;
 }
 
+.copyrightalt {
+  display: none;
+}
+
 .prev {
   text-align: left;
   width: 120px;
   align-content: center;
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .next {
@@ -350,6 +356,8 @@ nav a:active {
   width: 120px;
   align-content: center;
   padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .next a {
@@ -362,4 +370,69 @@ nav a:active {
 
 .ad728 {
   text-align: center;
+}
+
+.ad468f {
+  display: none;
+}
+
+@media only screen and (max-width: 728px) and (min-width: 469px) {
+  .ad728 {
+    display: none;
+  }
+  .ad468f {
+    display: flex;
+    text-align: center;
+  }
+  .ad320f {
+    display: none;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyrightalt {
+    display: flex;
+    padding-left: 5px;
+    font-size: 0.7rem;
+  }
+  .prev {
+    width: 50%;
+  }
+  .next {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 468px) {
+  .ad728 {
+    display: none;
+  }
+  .ad468f {
+    display: none;
+  }
+  .ad320f {
+    display: flex;
+    text-align: center;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyrightalt {
+    display: flex;
+    padding-left: 5px;
+    font-size: 0.7rem;
+  }
+  .prev {
+    width: 50%;
+  }
+  .next {
+    width: 50%;
+  }
 }
