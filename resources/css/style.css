@@ -361,6 +361,10 @@ nav a:active {
   padding-left: 10px;
 }
 
+.footgplus {
+  padding-top: 3px;
+}
+
 .prev {
   text-align: left;
   width: 120px;
