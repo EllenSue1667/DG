@@ -223,6 +223,7 @@ nav a:active {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
+  
 }
 
 .btn1 {
@@ -237,7 +238,7 @@ nav a:active {
   border: lightgray 1px solid;
 }
 
-.collapse em {
+ .verbs {
   font-weight: bold;
   color: rgba(172, 17, 17, 1);
   font-size: 1.05rem;
