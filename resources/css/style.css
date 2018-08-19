@@ -359,10 +359,11 @@ nav a:active {
 
 .footfbshare {
   padding-left: 10px;
+  align-items: center;
 }
 
 .footgplus {
-  padding-top: 3px;
+  align-items: center;
 }
 
 .prev {
