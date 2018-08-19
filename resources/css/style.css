@@ -451,6 +451,7 @@ nav a:active {
     display: flex;
     width: 20%;
     justify-content: center;
+    align-items: center;
   }
   .copyrightalt {
     display: flex;
@@ -507,5 +508,6 @@ nav a:active {
     display: flex;
     width: 20%;
     justify-content: center;
+    align-items: center;
   }
 }
