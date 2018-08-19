@@ -349,8 +349,16 @@ nav a:active {
   display: none;
 }
 
+.symbol700 {
+  display: none;
+}
+
 .symbol {
   display: none;
+}
+
+.footfbshare {
+  padding-left: 10px;
 }
 
 .prev {
@@ -407,6 +415,9 @@ nav a:active {
   .ad320f {
     display: none;
   }
+  .symbol700 {
+    display: none;
+  }
   .symbol {
     display: none;
   }
@@ -436,7 +447,7 @@ nav a:active {
   .copyright {
     display: none;
   }
-  .symbol {
+  .symbol700 {
     display: flex;
     width: 20%;
     justify-content: center;
@@ -488,6 +499,9 @@ nav a:active {
   }
   .next {
     width: 40%;
+  }
+  .symbol700 {
+    display: none;
   }
   .symbol {
     display: flex;
