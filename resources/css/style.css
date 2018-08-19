@@ -48,13 +48,14 @@ header {
 }
 
 .gplus {
-  padding-top: 65px;
+  padding-top: 62px;
   padding-left: 5px;
 
 }
 
 .fbshare {
   padding-left: 5px;
+  padding-top: 0px;
 }
 
 .logo {
