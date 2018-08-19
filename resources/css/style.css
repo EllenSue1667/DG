@@ -48,10 +48,9 @@ header {
 }
 
 .wplogo span {
-  padding-top: 35px;
+  padding-top: 5px;
   padding-left: 5px;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .logo {
