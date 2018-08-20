@@ -22,6 +22,10 @@ p {
   margin-top: 1.5rem;
 }
 
+i {
+  font-style: italic;
+}
+
 /* Header Section */
 
 header {
