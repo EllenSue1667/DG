@@ -160,7 +160,7 @@ nav a:active {
   font-size: 2rem;
   border: hsla(60, 100%, 25%, 1);
   margin: 0px 0px;
-
+  background-color: white;
 }
 
 .caret {
@@ -232,7 +232,6 @@ nav a:active {
     display: flex;
     padding-left: 8px;
     border-bottom: 1px solid gray;
-    position: fixed;
     width: 100%;
   }
 
@@ -342,16 +341,12 @@ nav a:active {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
-    position: fixed;
     width: 100%;
   }
   .space {
-    height: 60px;
+    display: none;
   }
-  .headspace {
-    display: block;
-    height: 45px;
-  }
+
 }
 
 @media only screen and (max-width: 467px) {
@@ -378,14 +373,9 @@ nav a:active {
     width: 100%;
   }
   .space {
-    height: 50px;
-    width: 100%;
-
+    display: none;
   }
-  .headspace {
-    height: 55px;
-    display: block;
-  }
+  
 }
 
 /* Footer Section */
