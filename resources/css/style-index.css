@@ -262,6 +262,7 @@ nav a:active {
 .main {
   width: 648px;
   padding: 10px 10px 10px 10px;
+  position: relative;
 }
 
 .answer {
@@ -337,9 +338,11 @@ nav a:active {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    position: fixed;
+    width: 100%;
   }
   .space {
-    height: 0px;
+    height: 107px;
   }
 }
 
@@ -363,9 +366,11 @@ nav a:active {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    position: fixed;
+    width: 100%;
   }
   .space {
-    height: 0px;
+    height: 97px;
   }
 }
 
