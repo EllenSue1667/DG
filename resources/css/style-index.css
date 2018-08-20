@@ -380,12 +380,11 @@ nav a:active {
   .space {
     height: 50px;
     width: 100%;
-    
+
   }
   .headspace {
-    height: 45px;
+    height: 55px;
     display: block;
-
   }
 }
 
