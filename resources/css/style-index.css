@@ -222,6 +222,9 @@ nav a:active {
 }
 
 @media only screen and (max-width: 700px) {
+  header {
+    position: relative;
+  }
   .header {
     display: none;
   }
@@ -265,7 +268,7 @@ nav a:active {
 .main {
   width: 648px;
   padding: 10px 10px 10px 10px;
-  
+
 }
 
 .answer {
