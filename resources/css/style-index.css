@@ -378,9 +378,12 @@ nav a:active {
   }
   .space {
     height: 50px;
+    position: relative;
   }
   .headspace {
     height: 45px;
+    position: relative;
+  }
 }
 
 /* Footer Section */
