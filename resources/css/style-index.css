@@ -349,6 +349,7 @@ nav a:active {
     height: 60px;
   }
   .headspace {
+    display: block;
     height: 45px;
   }
 }
@@ -378,11 +379,13 @@ nav a:active {
   }
   .space {
     height: 50px;
-    position: relative;
+    width: 100%;
+    
   }
   .headspace {
     height: 45px;
-    position: relative;
+    display: block;
+
   }
 }
 
