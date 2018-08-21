@@ -248,8 +248,13 @@ nav a:active {
 .lesson {
   width: 100%;
   display: flex;
-
 }
+
+.search {
+  
+}
+
+
 
 .left {
   flex-grow: 1;
@@ -273,7 +278,6 @@ nav a:active {
   width: 648px;
   padding: 10px 10px 10px 10px;
 
-  
 }
 
 .answer {
