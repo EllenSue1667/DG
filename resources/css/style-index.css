@@ -47,11 +47,7 @@ i {
   font-style: italic;
 }
 
-.envelope {
-  text-align: center;
-  padding: 0px 0px 10px 0px;
-  margin: 0px;
-}
+
 
 /* Header Section */
 
@@ -251,10 +247,31 @@ nav a:active {
 }
 
 .search {
-  
+  display: flex;
+  width: 100%;
+  border-top: solid 1px lightgray;
+  align-items: center;
 }
 
+.searchname {
+  padding-left: 10px;
+  color: gray;
+}
 
+.searchcode {
+  flex-grow: 1;
+  padding-top: 5px;
+}
+
+.searchalt {
+  display: none;
+}
+
+.envelope {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  margin: 0px;
+}
 
 .left {
   flex-grow: 1;
@@ -327,7 +344,6 @@ nav a:active {
     text-align: right;
     width: 120px;
     flex-grow: 1;
-
   }
   .left {
     display: none;
@@ -335,6 +351,17 @@ nav a:active {
   .main {
     padding: 10px 10px 10px 20px;
     flex-grow: 1;
+  }
+  .search {
+    display: none;
+  }
+  .searchalt {
+    display: flex;
+    width: 100%;
+    border-top: solid 1px lightgray;
+    padding-left: 15px;
+    padding-right: 10px;
+    align-items: center;
   }
 }
 
@@ -360,7 +387,17 @@ nav a:active {
   .space {
     display: none;
   }
-
+  .search {
+    display: none;
+  }
+  .searchalt {
+    display: flex;
+    width: 100%;
+    border-top: solid 1px lightgray;
+    padding-left: 15px;
+    padding-right: 10px;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -388,7 +425,15 @@ nav a:active {
   .space {
     display: none;
   }
-
+  .search {
+    display: none;
+  }
+  .searchalt {
+    display: flex;
+    width: 100%;
+    border-top: solid 1px lightgray;
+    align-items: center;
+  }
 }
 
 /* Footer Section */
@@ -417,7 +462,12 @@ nav a:active {
 }
 
 .copyrightalt {
-  display: none;
+  width: 100%;
+  border-top: solid 1px lightgray;
+  padding-left: 5px;
+  font-size: 0.7rem;
+  padding-top: 5px;
+  color: gray;
 }
 
 .symbol700 {
@@ -483,11 +533,7 @@ nav a:active {
     display: none;
   }
   .ad468f {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    border-bottom: lightgray 1px solid;
-    width: 100%;
+    display: none;
   }
   .ad320f {
     display: none;
@@ -499,7 +545,12 @@ nav a:active {
     display: none;
   }
   .copyrightalt {
-    display: none;
+    width: 100%;
+    border-top: solid 0px white;
+    padding-left: 5px;
+    font-size: 0.7rem;
+    padding-top: 5px;
+    color: gray;
   }
 
 }
@@ -513,6 +564,7 @@ nav a:active {
     text-align: center;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    border-top: lightgray 1px solid;
     width: 100%;
   }
   .ad320f {
@@ -537,6 +589,7 @@ nav a:active {
     font-size: 0.6rem;
     padding-top: 5px;
     color: gray;
+    border-top: solid 0px white;
   }
   .prev {
     width: 40%;
@@ -558,6 +611,7 @@ nav a:active {
     text-align: center;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    border-top: lightgray 1px solid;
     width: 100%;
   }
   .footer {
