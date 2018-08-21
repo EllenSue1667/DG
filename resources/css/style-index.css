@@ -458,6 +458,7 @@ nav a:active {
 }
 
 .ad728 {
+  display: none;
   text-align: center;
   border-bottom: lightgray 1px solid;
 }
