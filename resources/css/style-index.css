@@ -345,7 +345,7 @@ nav a:active {
 }
 
 hr {
-  width: 95%;
+  width: 98%;
   margin-left: auto;
   margin-right: auto;
   color: hsla(60, 100%, 25%, .50);
@@ -369,7 +369,7 @@ form {
 .shipping {
   display: flex;
   flex-direction: column;
-  width: 310px;
+  width: 265px;
   padding: 5px 5px 5px 5px;
 }
 
