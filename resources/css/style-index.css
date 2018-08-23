@@ -5,24 +5,27 @@ body {
 }
 
 
-
 h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding: 0px;
   margin: 0px;
+  text-align: center;
 }
 
 h2 {
   font-size: 1rem;
-  padding: 4px 0px 0px 0px;
+  padding: 4px 0px 20px 0px;
   margin: 0px;
+  text-align: center;
 }
 
 h3 {
   font-size: 1rem;
   padding: 0px;
   margin: 0px;
+  text-align: center;
+  padding: 4px 0px 0px 0px;
 }
 
 p {
@@ -43,6 +46,7 @@ p {
   text-decoration: underline;
 }
 
+
 i {
   font-style: italic;
 }
@@ -53,14 +57,12 @@ i {
 
 header {
   width: 100%;
-
   background-color: white;
 }
 
 .header {
   display: flex;
   width: 100%;
-
 }
 
 .wplogo {
@@ -80,7 +82,6 @@ header {
 .gplus {
   padding-top: 58px;
   padding-left: 5px;
-
 }
 
 .fbshare {
@@ -160,10 +161,6 @@ nav a:active {
   border: hsla(60, 100%, 25%, 1);
   margin: 0px 0px;
   background-color: white;
-}
-
-.caret {
-
 }
 
 .altlogo {
@@ -276,25 +273,21 @@ nav a:active {
 .left {
   flex-grow: 1;
   width: 160px;
-
 }
 
 .ad160 {
   flex-grow: 1;
   text-align: right;
   width: 160px;
-
 }
 
 .ad120 {
   display: none;
-
 }
 
 .main {
   width: 648px;
   padding: 10px 10px 0px 10px;
-
 }
 
 .answer {
@@ -305,7 +298,6 @@ nav a:active {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-
 }
 
 .btn1 {
@@ -334,6 +326,58 @@ nav a:active {
 .ad320 {
   display: none;
 }
+
+.workbook {
+  width: 360px;
+  height: auto;
+  float: left;
+  padding-right: 12px;
+  padding-top: 4px;
+}
+
+.title {
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+}
+
+.title a {
+  text-decoration: underline;
+}
+
+hr {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsla(60, 100%, 25%, .50);
+  background-color: hsla(60, 100%, 25%, .50);
+  height: 2px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.shippingrates {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.shipping {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  padding: 5px 5px 5px 5px;
+}
+
+.shipping span {
+  text-align: center;
+  padding: 1.5px 0px;
+}
+
 
 @media only screen and (max-width: 925px) and (min-width: 701px) {
   .ad160 {
