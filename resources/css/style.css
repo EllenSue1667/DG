@@ -293,6 +293,13 @@ nav a:active {
  .verbs {
   font-weight: bold;
   color: rgba(172, 17, 17, 1);
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.verbs1 {
+  font-weight: bold;
+  color: rgba(172, 17, 17, 1);
   font-size: 1rem;
   font-style: italic;
 }
