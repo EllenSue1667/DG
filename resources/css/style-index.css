@@ -253,11 +253,14 @@ nav a:active {
 .searchname {
   padding-left: 10px;
   color: gray;
+  font-size: .9rem;
+  width: 150px;
+  text-align: right;
 }
 
 .searchcode {
-  flex-grow: 1;
-  padding-top: 5px;
+  width: 488px;
+
 }
 
 .searchalt {
@@ -403,9 +406,15 @@ form {
     display: flex;
     width: 100%;
     border-top: solid 1px lightgray;
-    padding-left: 15px;
-    padding-right: 10px;
+    justify-content: center;
     align-items: center;
+  }
+  .searchcode {
+    width: 488px;
+  }
+  .searchname {
+    width: 150px;
+    text-align: right;
   }
 }
 
@@ -438,9 +447,15 @@ form {
     display: flex;
     width: 100%;
     border-top: solid 1px lightgray;
-    padding-left: 15px;
-    padding-right: 10px;
+    justify-content: center;
     align-items: center;
+  }
+  .searchname {
+    width: 150px;
+    text-align: right;
+  }
+  .searchcode {
+    width: 318px;
   }
 }
 
@@ -477,6 +492,16 @@ form {
     width: 100%;
     border-top: solid 1px lightgray;
     align-items: center;
+  }
+  .searchcode {
+    flex-grow: 1;
+  }
+  .searchname {
+    width: 150px;
+    text-align: right;
+  }
+  .workbook {
+    width: 200px;
   }
 }
 
