@@ -327,6 +327,10 @@ nav a:active {
   font-style: italic;
 }
 
+p a {
+  text-decoration: underline;
+}
+
 .ad468 {
   display: none;
 }
