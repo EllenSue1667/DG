@@ -243,6 +243,10 @@ nav a:active {
   display: flex;
 }
 
+.lesson a {
+  text-decoration: underline;
+}
+
 .search {
   display: flex;
   width: 100%;
@@ -291,35 +295,125 @@ nav a:active {
 .main {
   width: 648px;
   padding: 10px 10px 0px 10px;
+
 }
 
 .answer {
-  padding-left: 18px;
+  padding-left: 5px;
+
 }
 
 .collapse {
-  padding-top: 5px;
+  padding-top: 0px;
   padding-bottom: 5px;
   padding-left: 5px;
 }
 
 .btn1 {
-  border: lightgray 1px solid;
+  border: lightgray 0px solid;
 }
 
 .btn2 {
-  border: lightgray 1px solid;
+  border: lightgray 0px solid;
 }
 
 .btn3 {
-  border: lightgray 1px solid;
+  border: lightgray 0px solid;
 }
 
- .verbs {
+.btn4 {
+  border: lightgray 0px solid;
+}
+
+.btn5 {
+  border: lightgray 0px solid;
+}
+
+.btn6 {
+  border: lightgray 0px solid;
+}
+
+.btn7 {
+  border: lightgray 0px solid;
+}
+
+.btn8 {
+  border: lightgray 0px solid;
+}
+
+.btn9 {
+  border: lightgray 0px solid;
+}
+
+.archive {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.archive1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.terms {
+ font-weight: bold;
+ color: black;
+ font-size: 1.20rem;
+}
+
+.verbs {
+ font-weight: bold;
+ color: rgba(172, 17, 17, 1);
+ font-size: 1.20rem;
+ font-style: none;
+}
+
+.nouns {
+ font-weight: bold;
+ color: rgba(0, 117, 47, 1);
+ font-size: 1.20rem;
+ font-style: none;
+}
+
+.pronouns {
   font-weight: bold;
-  color: rgba(172, 17, 17, 1);
-  font-size: 1.05rem;
-  font-style: italic;
+  color: rgba(9, 165, 160, 1);
+  font-size: 1.20rem;
+}
+
+.adjectives {
+  font-weight: bold;
+  color: rgba(6, 37, 122, 1);
+  font-size: 1.20rem;
+}
+
+.adverbs {
+  font-weight: bold;
+  color: rgba(199, 92, 15, 1);
+  font-size: 1.20rem;
+}
+
+.prepositions {
+  font-weight: bold;
+  color: rgba(123, 18, 175, 1);
+  font-size: 1.20rem;
+}
+
+.conjunctions {
+  font-weight: bold;
+  color: rgba(181, 175, 8, 1);
+  font-size: 1.20rem;
+}
+
+.subject {
+  font-weight: bold;
+  color: rgba(6, 136, 84, 1);
+  font-size: 1.20rem;
 }
 
 .ad468 {
