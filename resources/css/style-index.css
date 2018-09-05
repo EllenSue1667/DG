@@ -345,6 +345,30 @@ nav a:active {
   border: lightgray 0px solid;
 }
 
+.btn10 {
+  border: lightgray 0px solid;
+}
+
+.btn11 {
+  border: lightgray 0px solid;
+}
+
+.btn12 {
+  border: lightgray 0px solid;
+}
+
+.btn13 {
+  border: lightgray 0px solid;
+}
+
+.btn14 {
+  border: lightgray 0px solid;
+}
+
+.btn15 {
+  border: lightgray 0px solid;
+}
+
 .archive {
   display: flex;
   flex-direction: column;
@@ -377,7 +401,7 @@ nav a:active {
 
 .nouns {
  font-weight: bold;
- color: rgba(0, 117, 47, 1);
+ color: rgba(0, 0, 184, 1);
  font-size: 1.20rem;
  font-style: none;
 }
@@ -390,7 +414,7 @@ nav a:active {
 
 .adjectives {
   font-weight: bold;
-  color: rgba(6, 37, 122, 1);
+  color: Green;
   font-size: 1.20rem;
 }
 
@@ -412,9 +436,33 @@ nav a:active {
   font-size: 1.20rem;
 }
 
+.interjection {
+  font-weight: bold;
+  color: #E3007B;
+  font-size: 1.20rem;
+}
+
 .subject {
   font-weight: bold;
-  color: rgba(6, 136, 84, 1);
+  color: rgba(0, 116, 194, 1);
+  font-size: 1.20rem;
+}
+
+.predicate {
+  font-weight: bold;
+  color: #92a8d1;
+  font-size: 1.20rem;
+}
+
+.object {
+  font-weight: bold;
+  color: #618685;
+  font-size: 1.20rem;
+}
+
+.appositives {
+  font-weight: bold;
+  color: #034f84;
   font-size: 1.20rem;
 }
 
