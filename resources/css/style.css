@@ -306,6 +306,17 @@ nav a:active {
   border: lightgray 1px solid;
 }
 
+.main a {
+  text-decoration: underline;
+}
+
+.terms {
+ font-weight: bold;
+ color: black;
+ font-size: 1.05rem;
+ font-style: italic;
+}
+
  .verbs {
   font-weight: bold;
   color: rgba(172, 17, 17, 1);
