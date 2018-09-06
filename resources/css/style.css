@@ -331,6 +331,13 @@ nav a:active {
   font-style: italic;
 }
 
+.nouns {
+ font-weight: bold;
+ color: rgba(0, 0, 184, 1);
+ font-size: 1.05rem;
+ font-style: italic;
+}
+
 .contraction {
   font-weight: bold;
   color: rgba(17, 120, 172, 1);
