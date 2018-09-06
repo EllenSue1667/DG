@@ -310,6 +310,10 @@ nav a:active {
   text-decoration: underline;
 }
 
+.main em {
+  font-style: italic;
+}
+
 .terms {
  font-weight: bold;
  color: black;
