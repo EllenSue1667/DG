@@ -141,40 +141,50 @@
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo1" class="collapse">
-            <span class="terms">You</span> don't seem to understand.
+            <span class="mechanics">You</span> don't seem to understand.
           </div>
         </div>
 
-        <p>2. You do beautiful work.</p>
+        <p>2. why didn't you ask me?</p>
         <div class="answer">
             <button type="button" class="btn2 btn-default" data-toggle="collapse" data-target="#demo2">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo2" class="collapse">
-            You <span class="verbs">do</span> beautiful work. &nbsp;&nbsp;-- action verb
+            <span class="mechanics">Why</span> didn't you ask me?
           </div>
         </div>
 
-        <p>3. I was in Canada last week.</p>
+        <p>3. the boy will be punished for his wrongs.</p>
         <div class="answer">
             <button type="button" class="btn3 btn-default" data-toggle="collapse" data-target="#demo3">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo3" class="collapse">
-            I <span class="verbs">was</span> in Canada last week. &nbsp;&nbsp;-- state of being verb
+            <span class="mechanics">The</span> boy will be punished for his wrongs.
           </div>
         </div>
 
-        <p>4. You are being very stubborn.</p>
+        <p>4. get out of here.</p>
         <div class="answer">
             <button type="button" class="btn4 btn-default" data-toggle="collapse" data-target="#demo4">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo4" class="collapse">
-            You <span class="verbs">are being</span> very stubborn. &nbsp;&nbsp;-- state of being verbs
+            <span class="mechanics">Get</span> out of here.
           </div>
         </div>
 
+        <p>5. did you see that!</p>
+        <div class="answer">
+            <button type="button" class="btn5 btn-default" data-toggle="collapse" data-target="#demo5">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo5" class="collapse">
+            <span class="mechanics">Did</span> you see that!
+          </div>
+        </div>
+        <br>
 
       </div>
       <div class="ad160">
@@ -312,6 +322,16 @@
       });
       $("#demo4").on("show.bs.collapse", function(){
         $(".btn4").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo5").on("hide.bs.collapse", function(){
+        $(".btn5").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo5").on("show.bs.collapse", function(){
+        $(".btn5").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
       });
     });
     </script>
