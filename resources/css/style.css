@@ -356,6 +356,13 @@ nav a:active {
   font-style: italic;
 }
 
+.mechanics1 {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
 p a {
   text-decoration: underline;
 }
