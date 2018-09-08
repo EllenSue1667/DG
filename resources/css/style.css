@@ -397,10 +397,13 @@ p a {
   color: white;
 }
 
-.definition:active, .definition:hover .definitiontext {
+.definition:hover .definitiontext {
     visibility: visible;
 }
 
+.definition:active .definitiontext {
+  visibility: visible;
+}
 
 
 .ad468 {
