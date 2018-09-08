@@ -431,6 +431,11 @@ p a {
     padding: 10px 10px 10px 20px;
     flex-grow: 1;
   }
+  .definition .definitiontext {
+      margin-left: -70px;
+
+  }
+
 }
 
 @media only screen and (max-width: 700px) and (min-width: 468px) {
@@ -451,6 +456,11 @@ p a {
     justify-content: center;
     border-bottom: lightgray 1px solid;
   }
+  .definition .definitiontext {
+      margin-left: -70px;
+      width: 170px;
+  }
+
 }
 
 @media only screen and (max-width: 467px) {
@@ -473,6 +483,10 @@ p a {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+  }
+  .definition .definitiontext {
+      margin-left: -70px;
+      width: 170px;
   }
 }
 
