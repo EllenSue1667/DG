@@ -367,6 +367,35 @@ p a {
   text-decoration: underline;
 }
 
+.definition {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.definition .definitiontext {
+    visibility: hidden;
+    width: 240px;
+    background-color: hsla(60, 100%, 25%, 1);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -120px;
+    position: absolute;
+    z-index: 1;
+}
+
+.definition:hover .definitiontext {
+    visibility: visible;
+}
+
+.definition:active .definitiontext {
+  visibility: visible;
+}
+
 .ad468 {
   display: none;
 }
