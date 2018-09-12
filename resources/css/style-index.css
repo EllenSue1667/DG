@@ -11,6 +11,7 @@ h1 {
   padding: 0px;
   margin: 0px;
   text-align: center;
+
 }
 
 h2 {
@@ -51,7 +52,19 @@ i {
   font-style: italic;
 }
 
+.addcart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.addcart h1 {
+  align-content: center;
+}
+
+.addcart span {
+  padding-left: 10px;
+}
 
 /* Header Section */
 

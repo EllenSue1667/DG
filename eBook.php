@@ -157,10 +157,9 @@
         click here</a>.</p>
 
         <hr>
-
-        <h1>Daily Grammar Lessons eBook - $6.95 USD&nbsp;&nbsp;
-
-
+        <div class="addcart">
+        <h1>Daily Grammar Lessons eBook - $6.95 USD</h1>
+          <span>
 
          <?php
 
@@ -201,8 +200,10 @@
       echo "<a href='https://www.wordplace.com/shopping-cart.php?add_prod=" . $productid . "&refer=" . $pageURL . "'><img src='https://www.wordplace.com/images/add-to-cart.png' border='0'></a>";
 
       ?>
+        </span>
+        </div>
 
-  </h1>
+
 
         <p class="title" align="center">Upon purchase, a download link will be provided on your
       	receipt.</p>
@@ -257,7 +258,7 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        
+
       </div>
 
     </div>
