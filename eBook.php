@@ -11,7 +11,7 @@
       gtag('config', 'UA-7372822-1');
     </script>
     <meta charset="utf-8">
-    <title>Daily Grammar Lessons Workbook</title>
+    <title>Daily Grammar Lessons eBook</title>
     <meta name="keywords" content="grammar, grammar lessons, grammar book, grammar help">
     <meta name="description" content="By simplifying grammar into short lessons, the Daily Grammar Lessons Workbook is an excellent resource for anyone wanting to learn grammar. The Daily Grammar Lessons Workbook is a great teaching tool for both public and home-schooled children, ESL students, and anyone needing to refresh English grammar skills.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,8 +55,7 @@
           <g:plusone></g:plusone>
           </span>
           <span class="fbshare">
-          <div class="fb-share-button" data-href="http://www.dailygrammar.com/Workbook.htm" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.dailygrammar.com%2FWorkbook.htm&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-          </span>
+          <div class="fb-share-button" data-href="http://www.dailygrammar.com/eBook.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.dailygrammar.com%2FeBook.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
         </div>
         <div class="logo">
@@ -69,7 +68,7 @@
         </div>
       </div>
       <nav>
-        <span> <a href="http://www.dailygrammar.com">Home</a></span>
+        <span> <a href="./">Home</a></span>
         <span> <a href="./Workbook.php">Workbook</a> </span>
         <span> <a href="./eBook.php">eBook</a> </span>
         <span> <a href="./archive.html">Lesson Archive</a> </span>
@@ -138,92 +137,85 @@
 
       </div>
       <div class="main">
-        <h1>Daily Grammar Lessons Workbook</h1>
-        <p class="title"> <a target="_blank" href="../Purchase/Daily%20Grammar%20Workbook%20Preview.pdf"><img src="./resources/images/DG-Front-Cover.png" alt="Front Cover of the Daily Grammar Lessons Workbook" class="workbook"></a> The new Daily Grammar Lessons Workbook is a fun, convenient way to learn grammar. Each spiral bound workbook contains all 440 lessons and 88 quizzes written by Mr. Bill Johanson.&nbsp; For easier learning, the lessons have been grouped together and placed in chapters. A convenient index has been added to help readers locate specific grammar subjects.&nbsp;A helpful glossary has also been added to aid readers in finding definitions of grammar terms quickly and easily.&nbsp; To preview the <a target="_blank" href="http://www.dailygrammar.com/Purchase/Daily%20Grammar%20Workbook%20Preview.pdf">Daily Grammar Lessons Workbook</a>, please <a target="_blank" href="http://www.dailygrammar.com/Purchase/Daily%20Grammar%20Workbook%20Preview.pdf">click here</a>.</p>
+        <h1>Daily Grammar Lessons eBook</h1>
+        <p class="title"> <a target="_blank" href="../Purchase/DG%20Preview.pdf"><img src="./resources/images/DG-Front-Cover.png" alt="Front Cover of the Daily Grammar Lessons Workbook" class="workbook"></a> The new Daily Grammar Lessons eBook is a fun, convenient way to learn grammar. The eBook contains all 440 lessons and 88 quizzes written by Mr. Bill Johanson.&nbsp; For easier learning, the lessons have been grouped together and placed in chapters. A convenient index has been added to help readers locate specific grammar subjects.&nbsp;A helpful glossary has also been added to aid readers in finding definitions of grammar terms quickly and easily.&nbsp; To preview the <a target="_blank" href="http://www.dailygrammar.com/Purchase/DG%20Preview.pdf">Daily Grammar Lessons eBook</a>, please <a target="_blank" href="http://www.dailygrammar.com/Purchase/DG%20Preview.pdf">click here</a>.</p>
 
-        <p class="index">By simplifying grammar into short lessons, the Daily Grammar Lessons Workbook is an excellent resource for anyone wanting to learn grammar. The Daily Grammar Lessons Workbook is a great teaching tool for both public and home-schooled children, ESL students, and anyone needing to refresh English grammar skills.&nbsp; The workbook consists of three parts: speech, sentence structure, and mechanics.</p>
+        <p class="index">By simplifying grammar into short lessons, the Daily
+        Grammar Lessons eBook is an excellent resource for anyone wanting to learn
+        grammar. The Daily Grammar Lessons eBook is a great teaching tool for both
+        public and home-schooled children, ESL students, and anyone needing to refresh
+        English grammar skills.&nbsp; The eBook consists of three parts: speech,
+        sentence structure, and mechanics.</p>
 
-        <p>Daily Grammar is the brainchild of Pete Peterson, former Executive Vice President of Word Perfect. Pete wanted to find a way to easily teach grammar to those in need of lessons. In order to fulfill his wish, Pete sought out the help of Mr. Bill Johansen, a thirty-year English teaching veteran.</p>
-
-        <hr>
-
-        <h1>Daily Grammar Lessons Workbook - $26.50 USD</h1>
-
-        <h2>Plus $2.50 for standard shipping within the U.S.A.</h2>
-
-        <h3><b>Due to demand, this item is <font color="#FF0000">currently out-of-stock.</font></b></h3>
-
-        <h3><b>We hope to have this item in-stock by&nbsp;September 20, 2018.</b></h3>
-
-        <form action="http://www.dailygrammar.com/send_form_email.php" method="post" name="contactform">
-  			<table width="415px">
-  				<tbody>
-  					<tr>
-  						<td valign="top"><label for="first_name">First Name:</label></td>
-  						<td valign="top"><input maxlength="50" name="first_name" size="30" type="text" /></td>
-  					</tr>
-  					<tr>
-  						<td valign="top"><label for="last_name">Last Name:</label></td>
-  						<td valign="top"><input maxlength="50" name="last_name" size="30" type="text" /></td>
-  					</tr>
-  					<tr>
-  						<td valign="top"><label for="email">Email Address:</label></td>
-  						<td valign="top"><input maxlength="80" name="email" size="30" type="text" /></td>
-  					</tr>
-  					<tr>
-  						<td colspan="2" style="text-align:center"><input type="submit" value="Submit" /></td>
-  					</tr>
-  				</tbody>
-  			</table>
-  			</form>
+        <p class="index">Our eBook is a PDF file that can be viewed with Adobe Reader Software, a completely free program.&nbsp;
+        Adobe Reader Software is standard on most Microsoft Windows based PCs.&nbsp;
+        Please click the sample lessons link above to see if your computer has Adobe
+        Reader Software installed.&nbsp; To download the
+        <a target="_blank" href="http://www.adobe.com/products/acrobat/readstep2.html">
+        Adobe Reader</a>,
+        <a target="_blank" href="http://www.adobe.com/products/acrobat/readstep2.html">
+        click here</a>.</p>
 
         <hr>
 
-        <h1>Shipping Rates</h1>
+        <h1>Daily Grammar Lessons eBook - $6.95 USD&nbsp;&nbsp;
 
-        <div class="shippingrates">
 
-        <div class="shipping">
-          <span><u>Standard Shipping - U.S. (8-10 Days)</u></span>
-          <span>1 Book - $2.50</span>
-          <span>2 Books - $3.50</span>
-          <span>3 Books - $4.50</span>
-          <span>4 Books - $5.50</span>
-        </div>
 
-        <div class="shipping">
-          <span> <u>Priority Shipping - U.S. (2-3 Days)</u> </span>
-          <span>1 Book - $10.75</span>
-          <span>2 Books - $10.75</span>
-          <span>3 Books - $10.75</span>
-          <span>4 Books - $21.50</span>
-        </div>
+         <?php
 
-        <div class="shipping">
-          <span> <u>GP - Canada (6-12 Days)</u> </span>
-          <span>1 Book - $47.75</span>
-          <span>2 Books - $47.75</span>
-          <span>3 Books - $47.75</span>
-          <span>4 Books - $95.70</span>
-        </div>
+      /*
+      ================================================
+      Change product ID to the desired product ID
 
-        <div class="shipping">
-          <span> <u>GP - United Kingdom (6-12 Days)</u> </span>
-          <span>1 Book - $69.00</span>
-          <span>2 Books - $69.00</span>
-          <span>3 Books - $69.00</span>
-          <span>4 Books - $138.00</span>
-        </div>
+          1: Daily Grammar Lessons eBook
+          2: Daily Grammar Lessons FlipBook
+          3: Daily Grammar Lessons Workbook
+          4: Yeah Write
+          5: Yeah Write w/ CD
+          6: Fun Write
 
-        <div class="shipping">
-          <span> <u>GP - International (6-12 Days)</u> </span>
-          <span>1 Book - $78.95</span>
-          <span>2 Books - $78.95</span>
-          <span>3 Books - $78.95</span>
-          <span>4 Books - $157.90</span>
-        </div>
+      ================================================
+      */
 
-      </div>
+      $productid = 1;         // Change me!!!
+      $pageURL = 'http';
+
+      if ($_SERVER["HTTPS"] == "on")
+      {
+        $pageURL .= "s";
+      }
+
+      $pageURL .= "://";
+
+      if ($_SERVER["SERVER_PORT"] != "80")
+      {
+        $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+      }
+
+      else
+      {
+        $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+      }
+
+      echo "<a href='https://www.wordplace.com/shopping-cart.php?add_prod=" . $productid . "&refer=" . $pageURL . "'><img src='https://www.wordplace.com/images/add-to-cart.png' border='0'></a>";
+
+      ?>
+
+  </h1>
+
+        <p class="title" align="center">Upon purchase, a download link will be provided on your
+      	receipt.</p>
+
+        <hr>
+
+        <p class="index">The author of all Daily Grammar’s lessons is Mr. Bill Johanson.&nbsp;Mr. Johanson has dedicated over thirty years of his life preparing children for college and professional settings by teaching English classes in both high school and junior high
+        schools.</p>
+
+        <p class="index">Teachers, who teach in our public school system, have our permission
+  			to duplicate and use the Daily Grammar lessons in their classrooms
+  			so long as the copyright information is preserved.</p>
+
 
         <div class="search">
           <span class="searchname">Search Daily Grammar:</span>
@@ -252,17 +244,8 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <br>
-        <br>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Daily Grammar 160 -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:160px;height:600px"
-             data-ad-client="ca-pub-6010095027201962"
-             data-ad-slot="5902259648"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+
+
       </div>
       <div class="ad120">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -274,17 +257,7 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <br>
-        <br>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Daily Grammar 120 -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:120px;height:600px"
-             data-ad-client="ca-pub-6010095027201962"
-             data-ad-slot="3135661350"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        
       </div>
 
     </div>
