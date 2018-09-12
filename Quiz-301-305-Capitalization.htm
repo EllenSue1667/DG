@@ -144,46 +144,96 @@
           </div>
         </div>
 
-        <p>2. Did you attend mountain view high school?</p>
+        <p>2. i wish i could go to arizona with my dad.</p>
         <div class="answer">
             <button type="button" class="btn2 btn-default" data-toggle="collapse" data-target="#demo2">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo2" class="collapse">
-            Did you attend <span class="mechanics">Mountain View High School</span>?
+            <span class="mechanics">I</span> wish <span class="mechanics">I</span> could go to <span class="mechanics">Arizona</span> with my dad.
           </div>
         </div>
 
-        <p>3. the three boys joined the boy scouts.</p>
+        <p>3. My uncle jim was visiting with paul in idaho.</p>
         <div class="answer">
             <button type="button" class="btn3 btn-default" data-toggle="collapse" data-target="#demo3">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo3" class="collapse">
-            <span class="mechanics">The</span> three boys joined the <span class="mechanics">Boy Scouts</span>.
+             My <span class="mechanics">Uncle Jim</span> was visiting with <span class="mechanics">Paul</span> in <span class="mechanics">Idaho</span>.
           </div>
         </div>
 
-        <p>4. aunt alice will be coming from africa.</p>
+        <p>4. I just returned from parsippany, new jersey.</p>
         <div class="answer">
             <button type="button" class="btn4 btn-default" data-toggle="collapse" data-target="#demo4">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo4" class="collapse">
-            <span class="mechanics">Aunt Alice</span> will be coming from <span class="mechanics">Africa</span>.
+            I just returned from <span class="mechanics">Parsippany</span>, <span class="mechanics">New Jersey</span>.
           </div>
         </div>
 
-        <p>5. The magazine <i>people</i> is read by many people.</p>
+        <p>5. The constitution should be studied more in school.</p>
         <div class="answer">
             <button type="button" class="btn5 btn-default" data-toggle="collapse" data-target="#demo5">
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo5" class="collapse">
-            The magazine <span class="mechanics">People</span> is read by many people.
+            The <span class="mechanics">Constitution</span> should be studied more in school.
           </div>
         </div>
-        <br>
+
+        <p>6. the navaho indians lived in interesting buildings.</p>
+        <div class="answer">
+            <button type="button" class="btn6 btn-default" data-toggle="collapse" data-target="#demo6">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo6" class="collapse">
+            <span class="mechanics">The Navaho Indians</span> lived in interesting buildings.
+          </div>
+        </div>
+
+        <p>7. Did you attend provo high?</p>
+        <div class="answer">
+            <button type="button" class="btn7 btn-default" data-toggle="collapse" data-target="#demo7">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo7" class="collapse">
+            Did you attend <span class="mechanics">Provo High</span>?
+          </div>
+        </div>
+
+        <p>8. Ann lives in canada.</p>
+        <div class="answer">
+            <button type="button" class="btn8 btn-default" data-toggle="collapse" data-target="#demo8">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo8" class="collapse">
+            Ann lives in <span class="mechanics">Canada</span>.
+          </div>
+        </div>
+
+        <p>9. we will be visiting the first baptist church.</p>
+        <div class="answer">
+            <button type="button" class="btn9 btn-default" data-toggle="collapse" data-target="#demo9">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo9" class="collapse">
+            <span class="mechanics">We</span> will be visiting the <span class="mechanics">First Baptist Church</span>.
+          </div>
+        </div>
+
+        <p>10. my nationality is swedish.</p>
+        <div class="answer">
+            <button type="button" class="btn10 btn-default" data-toggle="collapse" data-target="#demo10">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo10" class="collapse">
+            <span class="mechanics">My</span> nationality is <span class="mechanics">Swedish</span>.
+          </div>
+        </div>
+
 
       </div>
       <div class="ad160">
@@ -331,6 +381,56 @@
       });
       $("#demo5").on("show.bs.collapse", function(){
         $(".btn5").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo6").on("hide.bs.collapse", function(){
+        $(".btn6").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo6").on("show.bs.collapse", function(){
+        $(".btn6").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo7").on("hide.bs.collapse", function(){
+        $(".btn7").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo7").on("show.bs.collapse", function(){
+        $(".btn7").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo8").on("hide.bs.collapse", function(){
+        $(".btn8").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo8").on("show.bs.collapse", function(){
+        $(".btn8").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo9").on("hide.bs.collapse", function(){
+        $(".btn9").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo9").on("show.bs.collapse", function(){
+        $(".btn9").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo10").on("hide.bs.collapse", function(){
+        $(".btn10").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo10").on("show.bs.collapse", function(){
+        $(".btn10").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
       });
     });
     </script>
