@@ -615,6 +615,13 @@ form {
   .searchcode {
     width: 318px;
   }
+  .addcart {
+    flex-direction: column;
+  }
+  .addcart span {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -660,6 +667,13 @@ form {
   }
   .workbook {
     width: 200px;
+  }
+  .addcart {
+    flex-direction: column;
+  }
+  .addcart span {
+    padding-left: 0px;
+    padding-top: 10px;
   }
 }
 

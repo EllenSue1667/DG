@@ -160,8 +160,8 @@
         <div class="addcart">
         <h1>Daily Grammar Lessons eBook - $6.95 USD</h1>
           <span>
+            <?php  
 
-         <?php
 
       /*
       ================================================
@@ -200,6 +200,7 @@
       echo "<a href='https://www.wordplace.com/shopping-cart.php?add_prod=" . $productid . "&refer=" . $pageURL . "'><img src='https://www.wordplace.com/images/add-to-cart.png' border='0'></a>";
 
       ?>
+
         </span>
         </div>
 
