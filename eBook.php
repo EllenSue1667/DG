@@ -160,48 +160,48 @@
         <div class="addcart">
         <h1>Daily Grammar Lessons eBook - $6.95 USD</h1>
           <span>
-            <?php  
+          <?php
 
+            /*
+            ================================================
+            Change product ID to the desired product ID
 
-      /*
-      ================================================
-      Change product ID to the desired product ID
+                1: Daily Grammar Lessons eBook
+                2: Daily Grammar Lessons FlipBook
+                3: Daily Grammar Lessons Workbook
+                4: Yeah Write
+                5: Yeah Write w/ CD
+                6: Fun Write
 
-          1: Daily Grammar Lessons eBook
-          2: Daily Grammar Lessons FlipBook
-          3: Daily Grammar Lessons Workbook
-          4: Yeah Write
-          5: Yeah Write w/ CD
-          6: Fun Write
+            ================================================
+            */
 
-      ================================================
-      */
+            $productid = 1;         // Change me!!!
+            $pageURL = 'http';
 
-      $productid = 1;         // Change me!!!
-      $pageURL = 'http';
+            if ($_SERVER["HTTPS"] == "on")
+            {
+              $pageURL .= "s";
+            }
 
-      if ($_SERVER["HTTPS"] == "on")
-      {
-        $pageURL .= "s";
-      }
+            $pageURL .= "://";
 
-      $pageURL .= "://";
+            if ($_SERVER["SERVER_PORT"] != "80")
+            {
+              $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+            }
 
-      if ($_SERVER["SERVER_PORT"] != "80")
-      {
-        $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
-      }
+            else
+            {
+              $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+            }
 
-      else
-      {
-        $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
-      }
+            echo "<a href='https://www.wordplace.com/shopping-cart.php?add_prod=" . $productid . "&refer=" . $pageURL . "'><img src='https://www.wordplace.com/images/add-to-cart.png' border='0'></a>";
 
-      echo "<a href='https://www.wordplace.com/shopping-cart.php?add_prod=" . $productid . "&refer=" . $pageURL . "'><img src='https://www.wordplace.com/images/add-to-cart.png' border='0'></a>";
-
-      ?>
+          ?>
 
         </span>
+
         </div>
 
 
@@ -246,8 +246,6 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-
-
       </div>
       <div class="ad120">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -259,7 +257,6 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-
       </div>
 
     </div>
