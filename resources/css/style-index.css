@@ -56,14 +56,20 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid hsla(60, 100%, 25%, .50);
+  width: 98%;
 }
 
 .addcart h1 {
-  align-content: center;
+  padding-top: 15px;
 }
+
+
 
 .addcart span {
   padding-left: 10px;
+  padding-top: 0px;
+  display: flex;
 }
 
 /* Header Section */
@@ -489,7 +495,7 @@ nav a:active {
 }
 
 .workbook {
-  width: 61%;
+  width: 45%;
   height: auto;
   float: left;
   padding-right: 12px;
@@ -620,7 +626,7 @@ form {
   }
   .addcart span {
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
 }
 
