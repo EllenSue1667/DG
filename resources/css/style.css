@@ -83,8 +83,7 @@ header {
 }
 
 .fbspace {
-  height: 70px;
-  padding-top: 20px;
+  flex-grow: 1;
 }
 
 .fbshare {
