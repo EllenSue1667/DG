@@ -63,13 +63,11 @@
           <a href="http://www.dailygrammar.com"><img src="./resources/images/dglogo2sm.png" alt="Daily Grammar"></a>
         </div>
         <div class="cart">
-          <iframe src="https://www.wordplace.com/my-cart.php" width="190" height="80" style="border: 0px;" frameBorder="0" scrolling="no">
-            <p>Your browser does not support iframes.</p>
-          </iframe>
+
         </div>
       </div>
       <nav>
-        <span> <a href="http://www.dailygrammar.com">Home</a></span>
+        <span> <a href="./">Home</a></span>
         <span> <a href="./Workbook.php">Workbook</a> </span>
         <span> <a href="./eBook.php">eBook</a> </span>
         <span> <a href="./archive.html">Lesson Archive</a> </span>
@@ -85,7 +83,7 @@
             <span class="caret"></span></button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
               <li role="presentation"><a role="menuitem" tabindex="-1" href="./">Home</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="./Workbook.php">Workbook</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="./Workbook.htm">Workbook</a></li>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="./eBook.php">eBook</a></li>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="./archive.html">Lesson Archive</a></li>
               <li role="presentation"><a role="menuitem" tabindex="-1" href="./glossary.html">Glossary</a></li>
@@ -99,7 +97,7 @@
             <a href="./"> <span class="Daily">Daily</span> <span class="Grammar">Grammar</span></a>
           </div>
           <div class="shopping">
-            <a href="https://www.wordplace.com/shopping-cart.php"><i class="fas fa-shopping-cart"></i></a>
+
           </div>
 
         </div>
@@ -437,6 +435,21 @@
               </div>
               </div>
           </span>
+          <span>
+            <div class="answer">
+                <button type="button" class="btn16 btn-default" data-toggle="collapse" data-target="#demo16">
+                  <span class="glyphicon glyphicon-collapse-down"></span> <span class="nouns">Nouns of Address</span>
+                </button>
+              <div id="demo16" class="collapse">
+                Lessons <a target="_top" href="Lesson-131-Nouns-of-Address.htm">131</a>,
+            		<a target="_top" href="Lesson-132-Nouns-of-Address.htm">132</a>,
+            		<a target="_top" href="Lesson-133-Nouns-of-Address.htm">133</a>,
+            		<a target="_top" href="Lesson-134-Nouns-of-Address.htm">134</a>,
+            		<a target="_top" href="Lesson-135-Nouns-of-Address.htm">135</a> -
+            		<a href="Quiz-131-135-Nouns-of-Address.htm">Quiz</a>
+              </div>
+              </div>
+          </span>
 
 
         </div>
@@ -720,6 +733,16 @@
       });
       $("#demo15").on("show.bs.collapse", function(){
         $(".btn15").html('<span class="glyphicon glyphicon-collapse-up"></span> <span class="appositives">Appositives</span>');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo16").on("hide.bs.collapse", function(){
+        $(".btn16").html('<span class="glyphicon glyphicon-collapse-down"></span> <span class="terms">Nouns of Address</span>');
+      });
+      $("#demo16").on("show.bs.collapse", function(){
+        $(".btn16").html('<span class="glyphicon glyphicon-collapse-up"></span> <span class="nouns">Nouns of Address</span>');
       });
     });
     </script>
