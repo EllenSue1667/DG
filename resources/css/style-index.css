@@ -312,9 +312,13 @@ nav a:active {
 }
 
 .main {
+  width: 648px;
+  padding: 10px 10px 0px 10px;
+}
+
+.mainarch {
   width: 728px;
   padding: 10px 10px 0px 10px;
-
 }
 
 .answer {
@@ -381,6 +385,10 @@ nav a:active {
 }
 
 .btn14 {
+  border: lightgray 0px solid;
+}
+
+.btn15 {
   border: lightgray 0px solid;
 }
 
