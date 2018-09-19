@@ -416,6 +416,10 @@ nav a:active {
   border: lightgray 0px solid;
 }
 
+.btn40 {
+  border: lightgray 0px solid;
+}
+
 .archive {
   display: flex;
   flex-direction: column;
@@ -430,7 +434,6 @@ nav a:active {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
   flex-wrap: wrap;
 }
 
@@ -511,6 +514,12 @@ nav a:active {
 .appositives {
   font-weight: bold;
   color: #034f84;
+  font-size: 1.20rem;
+}
+
+.mechanics {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
   font-size: 1.20rem;
 }
 
