@@ -701,3 +701,10 @@ p a {
     text-align: center;
   }
 }
+
+@media print {
+ /* All your print styles go here */
+    .gplus, .fbshare, .cart, .nav, .left, .ad160, .prev, .next {
+      display: none;
+    }
+}
