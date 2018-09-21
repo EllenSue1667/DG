@@ -62,6 +62,17 @@ header {
   width: 100%;
 }
 
+.headerprint {
+  display: none;
+}
+
+.headerprint img {
+  margin: auto;
+  height: 60px;
+  width: auto;
+  padding-bottom: 2px;
+}
+
 .wplogo {
   text-align: left;
   display: flex;
@@ -704,7 +715,16 @@ p a {
 
 @media print {
  /* All your print styles go here */
-    .gplus, .fbshare, .cart, .nav, .left, .ad160, .prev, .next {
+    .header, nav, .left, .ad160, .ad120, .prev, .next, .ad728, .ad468f {
       display: none;
+    }
+    .headerprint {
+      display: flex;
+      width: 648px;
+      margin: auto;
+      border-bottom: solid 1px hsla(60, 100%, 25%, 1);
+    }
+    .main {
+      margin: auto;
     }
 }
