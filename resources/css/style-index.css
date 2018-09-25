@@ -322,7 +322,7 @@ nav a:active {
 }
 
 .answer {
-  padding-left: 5px;
+  padding-left: 0px;
 
 }
 
@@ -416,7 +416,91 @@ nav a:active {
   border: lightgray 0px solid;
 }
 
+.btn22 {
+  border: lightgray 0px solid;
+}
+
+.btn23 {
+  border: lightgray 0px solid;
+}
+
+.btn24 {
+  border: lightgray 0px solid;
+}
+
+.btn25 {
+  border: lightgray 0px solid;
+}
+
+.btn26 {
+  border: lightgray 0px solid;
+}
+
+.btn27 {
+  border: lightgray 0px solid;
+}
+
+.btn28 {
+  border: lightgray 0px solid;
+}
+
+.btn29 {
+  border: lightgray 0px solid;
+}
+
+.btn30 {
+  border: lightgray 0px solid;
+}
+
+.btn31 {
+  border: lightgray 0px solid;
+}
+
+.btn32 {
+  border: lightgray 0px solid;
+}
+
+.btn33 {
+  border: lightgray 0px solid;
+}
+
+.btn34 {
+  border: lightgray 0px solid;
+}
+
+.btn35 {
+  border: lightgray 0px solid;
+}
+
+.btn36 {
+  border: lightgray 0px solid;
+}
+
+.btn37{
+  border: lightgray 0px solid;
+}
+
 .btn40 {
+  border: lightgray 0px solid;
+}
+
+.btn41 {
+  border: lightgray 0px solid;
+}
+
+.btn42 {
+  border: lightgray 0px solid;
+}
+
+.btn43 {
+  border: lightgray 0px solid;
+}
+
+.btn44 {
+  border: lightgray 0px solid;
+}
+
+.btn45 {
   border: lightgray 0px solid;
 }
 
@@ -440,87 +524,99 @@ nav a:active {
 .terms {
  font-weight: bold;
  color: black;
- font-size: 1.20rem;
+ font-size: 1.15rem;
 }
 
 .verbs {
  font-weight: bold;
  color: rgba(172, 17, 17, 1);
- font-size: 1.20rem;
+ font-size: 1.15rem;
  font-style: none;
 }
 
 .nouns {
  font-weight: bold;
  color: rgba(0, 0, 184, 1);
- font-size: 1.20rem;
+ font-size: 1.15rem;
  font-style: none;
 }
 
 .pronouns {
   font-weight: bold;
   color: rgba(9, 165, 160, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .adjectives {
   font-weight: bold;
   color: Green;
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .adverbs {
   font-weight: bold;
   color: rgba(199, 92, 15, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .prepositions {
   font-weight: bold;
   color: rgba(123, 18, 175, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .conjunctions {
   font-weight: bold;
   color: rgba(181, 175, 8, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .interjection {
   font-weight: bold;
   color: #E3007B;
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .subject {
   font-weight: bold;
   color: rgba(0, 116, 194, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .predicate {
   font-weight: bold;
   color: #92a8d1;
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .object {
   font-weight: bold;
   color: #618685;
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .appositives {
   font-weight: bold;
   color: #034f84;
-  font-size: 1.20rem;
+  font-size: 1.15rem;
+}
+
+.indirect {
+  font-weight: bold;
+  color: #b974a8;
+  font-size: 1.15rem;
+}
+
+.verbal {
+  font-weight: bold;
+  color: #d1004b;
+  font-size: 1.15rem;
 }
 
 .mechanics {
   font-weight: bold;
   color: hsla(60, 100%, 25%, 1);
-  font-size: 1.20rem;
+  font-size: 1.15rem;
 }
 
 .ad468 {
