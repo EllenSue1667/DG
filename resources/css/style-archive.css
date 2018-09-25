@@ -318,9 +318,9 @@ nav a:active {
 }
 
 .mainarch {
-  width: 800px;
+  width: 790px;
   padding: 10px 10px 0px 10px;
-  
+  background-color: lightgray;
 }
 
 .answer {
@@ -682,7 +682,7 @@ form {
 }
 
 
-@media only screen and (max-width: 925px) and (min-width: 701px) {
+@media only screen and (max-width: 1110px) and (min-width: 701px) {
   .ad160 {
     display: none;
     }
@@ -695,7 +695,7 @@ form {
   .left {
     display: none;
   }
-  .main {
+  .mainarch {
     padding: 10px 10px 10px 20px;
     flex-grow: 1;
   }
@@ -728,7 +728,7 @@ form {
   .left {
     display: none;
   }
-  .main {
+  .mainarch {
     padding: 10px 10px 10px 15px;
   }
   .ad468 {
