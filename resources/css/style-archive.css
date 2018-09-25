@@ -320,7 +320,7 @@ nav a:active {
 .mainarch {
   width: 790px;
   padding: 10px 10px 0px 10px;
-  background-color: lightgray;
+  
 }
 
 .answer {
@@ -698,6 +698,9 @@ form {
   .mainarch {
     padding: 10px 10px 10px 20px;
     flex-grow: 1;
+  }
+  .title {
+    width: 100%;
   }
   .search {
     display: none;
