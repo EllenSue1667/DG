@@ -318,7 +318,7 @@ nav a:active {
 }
 
 .mainarch {
-  width: 790px;
+  width: 800px;
   padding: 10px 10px 0px 10px;
 
 }
@@ -506,6 +506,34 @@ nav a:active {
   border: lightgray 0px solid;
 }
 
+.btn46 {
+  border: lightgray 0px solid;
+}
+
+.btn47 {
+  border: lightgray 0px solid;
+}
+
+.btn48 {
+  border: lightgray 0px solid;
+}
+
+.btn49 {
+  border: lightgray 0px solid;
+}
+
+.btn50 {
+  border: lightgray 0px solid;
+}
+
+.btn51 {
+  border: lightgray 0px solid;
+}
+
+.btn52 {
+  border: lightgray 0px solid;
+}
+
 .archive {
   display: flex;
   flex-direction: column;
@@ -682,7 +710,7 @@ form {
 }
 
 
-@media only screen and (max-width: 1110px) and (min-width: 701px) {
+@media only screen and (max-width: 1140px) and (min-width: 701px) {
   .ad160 {
     display: none;
     }
