@@ -700,7 +700,7 @@ form {
     width: 100%;
   }
   .title {
-    width: 100%;
+    width: 90%;
   }
   .search {
     display: none;
@@ -733,6 +733,9 @@ form {
   }
   .mainarch {
     padding: 10px 10px 10px 15px;
+  }
+  .title {
+    width: 100%;
   }
   .ad468 {
     display: flex;
@@ -781,6 +784,9 @@ form {
   }
   .main {
     padding: 10px 10px 10px 10px;
+  }
+  .title {
+    width: 100%;
   }
   .ad468 {
     display: none;
