@@ -320,7 +320,7 @@ nav a:active {
 .mainarch {
   width: 790px;
   padding: 10px 10px 0px 10px;
-  
+
 }
 
 .answer {
@@ -697,7 +697,7 @@ form {
   }
   .mainarch {
     padding: 10px 10px 10px 20px;
-    flex-grow: 1;
+    width: 100%;
   }
   .title {
     width: 100%;
