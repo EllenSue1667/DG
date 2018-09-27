@@ -272,6 +272,7 @@ nav a:active {
   width: 100%;
   border-top: solid 1px lightgray;
   align-items: center;
+  justify-content: center;
 }
 
 .searchname {
@@ -283,7 +284,7 @@ nav a:active {
 }
 
 .searchcode {
-  width: 488px;
+  width: 588px;
 
 }
 
