@@ -394,6 +394,13 @@ nav a:active {
   font-style: italic;
 }
 
+.adjectives {
+  font-weight: bold;
+  color: green;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
 p a {
   text-decoration: underline;
 }
