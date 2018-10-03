@@ -269,7 +269,6 @@ nav a:active {
 .main {
   width: 648px;
   padding: 10px 10px 10px 10px;
-
 }
 
 .answer {
@@ -280,7 +279,6 @@ nav a:active {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-
 }
 
 .btn1 {
@@ -435,13 +433,14 @@ p a {
     background-color: hsla(60, 100%, 31%, .90);
     color: #fff;
     text-align: center;
-    padding: 3px 3px;
+    padding: .5px 3px;
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -25px;
+    margin-left: -35px;
     position: absolute;
     z-index: 1;
+    font-size: .85rem;
 }
 
 .definition .definitionpronoun {
@@ -449,13 +448,14 @@ p a {
     background-color: rgba(9, 165, 160, 1);
     color: #fff;
     text-align: center;
-    padding: 3px 3px;
+    padding: .5px 3px;
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -25px;
     position: absolute;
     z-index: 1;
+    font-size: .85rem;
 }
 
 .definition .definitionadj {
@@ -463,13 +463,14 @@ p a {
     background-color: green;
     color: #fff;
     text-align: center;
-    padding: 3px 3px;
+    padding: .5px 3px;
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -35px;
+    margin-left: -27.5px;
     position: absolute;
     z-index: 1;
+    font-size: .85rem;
 }
 
 .definition .definitiontext a {
@@ -805,4 +806,23 @@ p a {
     .main {
       margin: auto;
     }
+    .definition .definitionterm {
+      visibility: visible;
+      background-color: lightgray;
+    }
+    .definition .definitionadj {
+      visibility: visible;
+      background-color: lightgray;
+      padding: 0px 0px;
+      font-size: .8rem;
+      margin-left: -22.5px;
+    }
+    .definition .definitionpronoun {
+      visibility: visible;
+      background-color: lightgray;
+      padding: 0px 0px;
+      font-size: .8rem;
+      margin-left: -22.5px;
+    }
+
 }
