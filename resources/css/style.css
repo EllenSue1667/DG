@@ -430,6 +430,20 @@ p a {
     z-index: 1;
 }
 
+.definition .definitionterm {
+    visibility: hidden;
+    background-color: hsla(60, 100%, 31%, .90);
+    color: #fff;
+    text-align: center;
+    padding: 3px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    z-index: 1;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -442,7 +456,13 @@ p a {
     visibility: visible;
 }
 
+.definition:active .definitionterm {
+  visibility: visible;
+}
 
+.definition:hover .definitionterm {
+    visibility: visible;
+}
 
 .ad468 {
   display: none;
