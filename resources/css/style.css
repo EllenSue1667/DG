@@ -444,6 +444,34 @@ p a {
     z-index: 1;
 }
 
+.definition .definitionpronoun {
+    visibility: hidden;
+    background-color: rgba(9, 165, 160, 1);
+    color: #fff;
+    text-align: center;
+    padding: 3px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.definition .definitionadj {
+    visibility: hidden;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 3px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    z-index: 1;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -461,6 +489,22 @@ p a {
 }
 
 .definition:hover .definitionterm {
+    visibility: visible;
+}
+
+.definition:active .definitionpronoun {
+  visibility: visible;
+}
+
+.definition:hover .definitionpronoun {
+    visibility: visible;
+}
+
+.definition:active .definitionadj {
+  visibility: visible;
+}
+
+.definition:hover .definitionadj {
     visibility: visible;
 }
 
