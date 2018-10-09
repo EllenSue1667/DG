@@ -60,13 +60,31 @@ i {
   width: 98%;
 }
 
+.addcart1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid hsla(60, 100%, 25%, .50);
+  width: 98%;
+}
+
 .addcart h1 {
+  padding-top: 15px;
+}
+
+.addcart1 h1 {
   padding-top: 10px;
 }
 
 
-
 .addcart span {
+  padding-left: 10px;
+  padding-top: 0px;
+  display: flex;
+
+}
+
+.addcart1 span {
   padding-left: 10px;
   padding-top: 10px;
   display: flex;
