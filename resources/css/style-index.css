@@ -61,15 +61,16 @@ i {
 }
 
 .addcart h1 {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 
 
 .addcart span {
   padding-left: 10px;
-  padding-top: 0px;
+  padding-top: 10px;
   display: flex;
+
 }
 
 /* Header Section */
