@@ -273,6 +273,7 @@ nav a:active {
 
 .answer {
   padding-left: 18px;
+  padding-bottom: 0px;
 }
 
 .collapse {
