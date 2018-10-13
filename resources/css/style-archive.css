@@ -275,6 +275,15 @@ nav a:active {
   justify-content: center;
 }
 
+.searchbox {
+  display: flex;
+  width: 628px;
+  margin: auto;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+  align-items: center;
+}
+
 .searchname {
   padding-left: 10px;
   color: gray;
@@ -285,7 +294,10 @@ nav a:active {
 
 .searchcode {
   width: 588px;
+}
 
+.searchcodesm {
+  width: 478px;
 }
 
 .searchalt {
@@ -540,7 +552,7 @@ nav a:active {
   flex-direction: column;
   padding-left: 5px;
   padding-right: 5px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
 
@@ -550,6 +562,44 @@ nav a:active {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.archive_column1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  width: 390px;
+  border-right: lightgray 1px solid;
+}
+
+.archive_column2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 390px;
+}
+
+.archive_subject {
+  padding-left: 1em;
+  text-indent: -2em;
+}
+
+.archive_sub {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.archive_sublast {
+  padding-left: 1em;
+  text-indent: -1em;
+  padding-bottom: 10px;
 }
 
 .terms {
@@ -786,11 +836,11 @@ form {
     align-items: center;
   }
   .searchname {
-    width: 150px;
+    width: 30%;
     text-align: right;
   }
   .searchcode {
-    width: 318px;
+    width: 70%;
   }
   .addcart {
     flex-direction: column;
@@ -798,6 +848,13 @@ form {
   .addcart span {
     padding-left: 0px;
     padding-top: 0px;
+  }
+  .searchbox {
+    width: 96%;
+    justify-content: center;
+  }
+  .searchcodesm {
+    width: 70%;
   }
 }
 
@@ -839,11 +896,11 @@ form {
     align-items: center;
   }
   .searchcode {
-    flex-grow: 1;
+    width: 60%;
   }
   .searchname {
-    width: 150px;
     text-align: right;
+    width: 40%;
   }
   .workbook {
     width: 200px;
@@ -854,6 +911,12 @@ form {
   .addcart span {
     padding-left: 0px;
     padding-top: 10px;
+  }
+  .searchbox {
+    width: 100%;
+  }
+  .searchcodesm {
+    width: 60%;
   }
 }
 
