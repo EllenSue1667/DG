@@ -884,6 +884,7 @@ form {
   .archive_column1 {
     border-right: 0px solid lightgray;
   }
+
 }
 
 @media only screen and (max-width: 467px) {
@@ -945,6 +946,12 @@ form {
   }
   .searchcodesm {
     width: 60%;
+  }
+  .archive_column1 {
+    width: 100%;
+  }
+  .archive_column2 {
+    width: 100%;
   }
 }
 
