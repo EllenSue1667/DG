@@ -949,6 +949,7 @@ form {
   }
   .archive_column1 {
     width: 100%;
+    border-right: 0px solid lightgray;
   }
   .archive_column2 {
     width: 100%;
