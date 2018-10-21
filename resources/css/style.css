@@ -400,6 +400,14 @@ nav a:active {
   font-style: italic;
 }
 
+.mechanics2 {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
+  font-size: 1.1rem;
+  font-style: italic;
+  padding-left: 2px;
+}
+
 .adjectives {
   font-weight: bold;
   color: green;
