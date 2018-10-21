@@ -884,6 +884,9 @@ form {
   .archive_column1 {
     border-right: 0px solid lightgray;
   }
+  .archive_column2 {
+    padding-top: 10px;
+  }
 
 }
 
@@ -952,6 +955,7 @@ form {
     border-right: 0px solid lightgray;
   }
   .archive_column2 {
+    padding-top: 10px;
     width: 100%;
   }
 }
