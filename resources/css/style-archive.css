@@ -565,6 +565,16 @@ nav a:active {
   padding-top: 10px;
 }
 
+.archiveG {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-left: 1em;
+}
+
 .archiveF {
   width: 100%;
   display: flex;
@@ -608,6 +618,17 @@ nav a:active {
   padding-left: 1em;
   text-indent: -1em;
   padding-bottom: 10px;
+}
+
+.archive_glossary {
+  padding-left: 1rem;
+  text-indent: -2rem;
+  padding-bottom: 20px;
+}
+
+.glossary_nav {
+  text-align: center;
+  padding-top: 0px;
 }
 
 .archive_FAQ {
@@ -844,7 +865,7 @@ form {
   .ad468 {
     display: flex;
     justify-content: center;
-    border-bottom: lightgray 1px solid;
+    border-bottom: lightgray 0px solid;
     width: 100%;
   }
   .space {
@@ -888,6 +909,11 @@ form {
     padding-top: 10px;
     padding-right: 5px;
   }
+  .glossary_nav {
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 0px;
+  }
 
 }
 
@@ -913,7 +939,7 @@ form {
   .ad320 {
     display: flex;
     justify-content: center;
-    border-bottom: lightgray 1px solid;
+    border-bottom: lightgray 0px solid;
     width: 100%;
   }
   .space {
@@ -959,6 +985,11 @@ form {
     padding-top: 10px;
     width: 100%;
     padding-right: 5px;
+  }
+  .glossary_nav {
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 0px;
   }
 }
 
