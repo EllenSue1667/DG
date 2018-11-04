@@ -568,10 +568,9 @@ nav a:active {
 .archiveG {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+
   flex-wrap: wrap;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 1em;
 }
 
@@ -628,7 +627,8 @@ nav a:active {
 
 .glossary_nav {
   text-align: center;
-  padding-top: 0px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
 .archive_FAQ {
