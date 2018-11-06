@@ -408,6 +408,13 @@ nav a:active {
   padding-left: 2px;
 }
 
+.mechanics2S {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
+  font-size: 1.1rem;
+  padding-left: 2px;
+}
+
 .adjectives {
   font-weight: bold;
   color: green;
