@@ -429,6 +429,20 @@ nav a:active {
   font-style: italic;
 }
 
+.prepositions {
+  font-weight: bold;
+  color: rgba(123, 18, 175, 1);
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.prepositions1 {
+  font-weight: bold;
+  color: rgba(123, 18, 175, .65);
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
 p a {
   text-decoration: underline;
 }
