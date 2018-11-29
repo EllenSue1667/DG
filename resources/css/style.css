@@ -443,6 +443,14 @@ nav a:active {
   font-style: italic;
 }
 
+.conjunctions {
+  font-weight: bold;
+  color: rgba(181, 175, 8, 1);
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+
 p a {
   text-decoration: underline;
 }
