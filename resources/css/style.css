@@ -548,7 +548,7 @@ p a {
 }
 
 .definition .definitionconj1 {
-    visibility: hidden;
+    visibility: visible;
     background-color: rgba(181, 175, 8, 1);
     color: #fff;
     text-align: center;
@@ -556,10 +556,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -32.5px;
+    margin-left: -35px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
+    width: 70px;
 }
 
 .definition .definitiontext a {
@@ -606,13 +607,7 @@ p a {
     visibility: visible;
 }
 
-.definition:active .definitionconj1 {
-  visibility: visible;
-}
 
-.definition:hover .definitionconj1 {
-    visibility: visible;
-}
 
 .ad468 {
   display: none;
@@ -667,6 +662,16 @@ p a {
       margin-left: -70px;
       width: 170px;
   }
+  .definition .definitionconj1 {
+      visibility: hidden;
+  }
+  .definition:active .definitionconj1 {
+    visibility: visible;
+  }
+
+  .definition:hover .definitionconj1 {
+      visibility: visible;
+  }
 
 }
 
@@ -694,6 +699,16 @@ p a {
   .definition .definitiontext {
       margin-left: -70px;
       width: 170px;
+  }
+  .definition .definitionconj1 {
+      visibility: hidden;
+  }
+  .definition:active .definitionconj1 {
+    visibility: visible;
+  }
+
+  .definition:hover .definitionconj1 {
+      visibility: visible;
   }
 }
 
