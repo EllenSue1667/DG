@@ -547,6 +547,21 @@ p a {
     font-size: .85rem;
 }
 
+.definition .definitionconj1 {
+    visibility: hidden;
+    background-color: rgba(181, 175, 8, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -32.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .85rem;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -588,6 +603,14 @@ p a {
 }
 
 .definition:hover .definitionconj {
+    visibility: visible;
+}
+
+.definition:active .definitionconj1 {
+  visibility: visible;
+}
+
+.definition:hover .definitionconj1 {
     visibility: visible;
 }
 
