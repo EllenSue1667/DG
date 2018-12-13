@@ -35,6 +35,8 @@ p {
   margin-top: 1.5rem;
 }
 
+
+
 .open {
   font-size: 1rem;
   margin-top: 0rem;
@@ -283,11 +285,15 @@ nav a:active {
   padding-bottom: 0px;
 }
 
+
 .collapse {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
 }
+
+
+
 
 .btn1 {
   border: lightgray 1px solid;
@@ -468,7 +474,14 @@ p a {
   padding: 0px 0px;
   margin: 0px 0px;
   border-bottom: 1px dotted black;
+}
 
+.diagram {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px;
+  border-bottom: 1px dotted black;
 }
 
 .definition .definitiontext {
@@ -561,6 +574,129 @@ p a {
     z-index: 1;
     font-size: .85rem;
     width: 70px;
+}
+
+.diagram .diagraminterj {
+    visibility: visible;
+    background-color: #E3007B;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -14px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagrampron {
+    visibility: visible;
+    background-color: rgba(9, 165, 160, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagramv {
+    visibility: visible;
+    background-color: rgba(172, 17, 17, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagramadj {
+    visibility: visible;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -11.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagramadv {
+    visibility: visible;
+    background-color: rgba(199, 92, 15, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -11.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagramN {
+    visibility: visible;
+    background-color: rgba(0, 0, 184, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+
+}
+
+.diagram .diagramconj {
+    visibility: visible;
+    background-color: rgba(181, 175, 8, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -13.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+
+}
+
+.diagram .diagramprep {
+    visibility: visible;
+    background-color: rgba(123, 18, 175, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -13.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+
 }
 
 .definition .definitiontext a {
@@ -662,16 +798,7 @@ p a {
       margin-left: -70px;
       width: 170px;
   }
-  .definition .definitionconj1 {
-      visibility: hidden;
-  }
-  .definition:active .definitionconj1 {
-    visibility: visible;
-  }
 
-  .definition:hover .definitionconj1 {
-      visibility: visible;
-  }
 
 }
 
@@ -700,6 +827,10 @@ p a {
       margin-left: -70px;
       width: 170px;
   }
+
+}
+
+@media only screen and (max-width: 575px) {
   .definition .definitionconj1 {
       visibility: hidden;
   }
@@ -708,6 +839,79 @@ p a {
   }
 
   .definition:hover .definitionconj1 {
+      visibility: visible;
+  }
+
+  .diagram .diagramprep {
+    visibility: hidden;
+  }
+  .diagram:active .diagramprep {
+      visibility: visible;
+  }
+  .diagram:hover .diagramprep {
+      visibility: visible;
+  }
+  .diagram .diagramN {
+    visibility: hidden;
+  }
+  .diagram:active .diagramN {
+      visibility: visible;
+  }
+  .diagram:hover .diagramN {
+      visibility: visible;
+  }
+  .diagram .diagramv {
+    visibility: hidden;
+  }
+  .diagram:active .diagramv {
+      visibility: visible;
+  }
+  .diagram:hover .diagramv {
+      visibility: visible;
+  }
+  .diagram .diagramadj {
+    visibility: hidden;
+  }
+  .diagram:active .diagramadj {
+      visibility: visible;
+  }
+  .diagram:hover .diagramadj {
+      visibility: visible;
+  }
+  .diagram .diagramadv {
+    visibility: hidden;
+  }
+  .diagram:active .diagramadv {
+      visibility: visible;
+  }
+  .diagram:hover .diagramadv {
+      visibility: visible;
+  }
+  .diagram .diagramconj {
+    visibility: hidden;
+  }
+  .diagram:active .diagramconj {
+      visibility: visible;
+  }
+  .diagram:hover .diagramconj {
+      visibility: visible;
+  }
+  .diagram .diagrampron {
+    visibility: hidden;
+  }
+  .diagram:active .diagrampron {
+      visibility: visible;
+  }
+  .diagram:hover .diagrampron {
+      visibility: visible;
+  }
+  .diagram .diagraminterj {
+    visibility: hidden;
+  }
+  .diagram:active .diagraminterj {
+      visibility: visible;
+  }
+  .diagram:hover .diagraminterj {
       visibility: visible;
   }
 }
