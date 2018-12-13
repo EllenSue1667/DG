@@ -699,6 +699,10 @@ p a {
 
 }
 
+.space {
+  display: none;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -831,6 +835,9 @@ p a {
 }
 
 @media only screen and (max-width: 575px) {
+  .space {
+    display: flex;
+  }
   .definition .definitionconj1 {
       visibility: hidden;
   }
@@ -842,78 +849,7 @@ p a {
       visibility: visible;
   }
 
-  .diagram .diagramprep {
-    visibility: hidden;
-  }
-  .diagram:active .diagramprep {
-      visibility: visible;
-  }
-  .diagram:hover .diagramprep {
-      visibility: visible;
-  }
-  .diagram .diagramN {
-    visibility: hidden;
-  }
-  .diagram:active .diagramN {
-      visibility: visible;
-  }
-  .diagram:hover .diagramN {
-      visibility: visible;
-  }
-  .diagram .diagramv {
-    visibility: hidden;
-  }
-  .diagram:active .diagramv {
-      visibility: visible;
-  }
-  .diagram:hover .diagramv {
-      visibility: visible;
-  }
-  .diagram .diagramadj {
-    visibility: hidden;
-  }
-  .diagram:active .diagramadj {
-      visibility: visible;
-  }
-  .diagram:hover .diagramadj {
-      visibility: visible;
-  }
-  .diagram .diagramadv {
-    visibility: hidden;
-  }
-  .diagram:active .diagramadv {
-      visibility: visible;
-  }
-  .diagram:hover .diagramadv {
-      visibility: visible;
-  }
-  .diagram .diagramconj {
-    visibility: hidden;
-  }
-  .diagram:active .diagramconj {
-      visibility: visible;
-  }
-  .diagram:hover .diagramconj {
-      visibility: visible;
-  }
-  .diagram .diagrampron {
-    visibility: hidden;
-  }
-  .diagram:active .diagrampron {
-      visibility: visible;
-  }
-  .diagram:hover .diagrampron {
-      visibility: visible;
-  }
-  .diagram .diagraminterj {
-    visibility: hidden;
-  }
-  .diagram:active .diagraminterj {
-      visibility: visible;
-  }
-  .diagram:hover .diagraminterj {
-      visibility: visible;
-  }
+  
 }
 
 /* Footer Section */
