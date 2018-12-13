@@ -699,7 +699,11 @@ p a {
 
 }
 
-.space {
+.space1 {
+  display: none;
+}
+
+.space2 {
   display: none;
 }
 
@@ -831,13 +835,17 @@ p a {
       margin-left: -70px;
       width: 170px;
   }
+  .space1 {
+    display: flex;
+  }
+  .space2 {
+    display: none;
+  }
 
 }
 
-@media only screen and (max-width: 575px) {
-  .space {
-    display: flex;
-  }
+@media only screen and (max-width: 575px) and (min-width: 468px) {
+
   .definition .definitionconj1 {
       visibility: hidden;
   }
@@ -848,8 +856,15 @@ p a {
   .definition:hover .definitionconj1 {
       visibility: visible;
   }
+  .space1 {
+    display: none;
 
-  
+  }
+  .space2 {
+    display: flex;
+  }
+
+
 }
 
 /* Footer Section */
