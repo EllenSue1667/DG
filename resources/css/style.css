@@ -873,11 +873,11 @@ p a {
 @media only screen and (max-width: 575px) and (min-width: 468px) {
 
   .space1 {
-    display: flex;
+    display: none;
 
   }
   .space2 {
-    display: none;
+    display: flex;
   }
   .space3 {
     display: none;
