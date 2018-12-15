@@ -708,6 +708,10 @@ p a {
   display: none;
 }
 
+.space3 {
+  display: none;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -782,6 +786,15 @@ p a {
       margin-left: -70px;
 
   }
+  .space3 {
+    display: flex;
+  }
+  .space1 {
+    display: none;
+  }
+  .space2 {
+    display: none;
+  }
 
 }
 
@@ -806,6 +819,15 @@ p a {
   .definition .definitiontext {
       margin-left: -70px;
       width: 170px;
+  }
+  .space1 {
+    display: none;
+  }
+  .space2 {
+    display: flex;
+  }
+  .space3 {
+    display: none;
   }
 
 
@@ -842,17 +864,23 @@ p a {
   .space2 {
     display: none;
   }
+  .space3 {
+    display: none;
+  }
 
 }
 
 @media only screen and (max-width: 575px) and (min-width: 468px) {
 
   .space1 {
-    display: none;
+    display: flex;
 
   }
   .space2 {
-    display: flex;
+    display: none;
+  }
+  .space3 {
+    display: none;
   }
 
 
