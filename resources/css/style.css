@@ -712,6 +712,10 @@ p a {
   display: none;
 }
 
+.space4 {
+  display: none;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -795,6 +799,9 @@ p a {
   .space2 {
     display: none;
   }
+  .space4 {
+    display: none;
+  }
 
 }
 
@@ -820,6 +827,10 @@ p a {
       margin-left: -70px;
       width: 170px;
   }
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 576px) {
   .space1 {
     display: none;
   }
@@ -829,8 +840,9 @@ p a {
   .space3 {
     display: none;
   }
-
-
+  .space4 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 467px) {
@@ -867,6 +879,9 @@ p a {
   .space3 {
     display: none;
   }
+  .space4 {
+    display: none;
+  }
 
 }
 
@@ -877,10 +892,13 @@ p a {
 
   }
   .space2 {
-    display: flex;
+    display: none;
   }
   .space3 {
     display: none;
+  }
+  .space4 {
+    display: flex;
   }
 
 
