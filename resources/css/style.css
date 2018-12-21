@@ -716,6 +716,10 @@ p a {
   display: none;
 }
 
+.space5 {
+  display: flex;
+}
+
 .definition .definitiontext a {
   color: white;
 }
@@ -802,6 +806,9 @@ p a {
   .space4 {
     display: none;
   }
+  .space5 {
+    display: none;
+  }
 
 }
 
@@ -841,6 +848,9 @@ p a {
     display: none;
   }
   .space4 {
+    display: none;
+  }
+  .space5 {
     display: none;
   }
 }
@@ -899,6 +909,9 @@ p a {
   }
   .space4 {
     display: flex;
+  }
+  .space5 {
+    display: none;
   }
 
 
