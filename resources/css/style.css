@@ -478,6 +478,34 @@ nav a:active {
   font-style: italic;
 }
 
+.object {
+  font-weight: bold;
+  color: #618685;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.appositives {
+  font-weight: bold;
+  color: #034f84;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.indirect {
+  font-weight: bold;
+  color: #b974a8;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.verbal {
+  font-weight: bold;
+  color: #d1004b;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
 
 p a {
   text-decoration: underline;
