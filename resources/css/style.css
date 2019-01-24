@@ -35,6 +35,13 @@ p {
   margin-top: 1.5rem;
 }
 
+.example {
+  font-size: 1rem;
+  margin-top: 0px;
+  padding-left: 20px;
+  
+}
+
 
 
 .open {
