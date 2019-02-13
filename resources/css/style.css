@@ -1156,20 +1156,19 @@ p a {
     color: gray;
   }
   .prev {
-    display: flex;
-    flex-grow: 1;
-    text-align: left;
+    width: 45%;
   }
   .next {
-    display: flex;
-    flex-grow: 1;
-    text-align: right;
+    width: 45%;
   }
+
+
   .symbol700 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-grow: 1;
   }
   .symbol {
     display: none;
