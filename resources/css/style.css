@@ -114,8 +114,11 @@ header {
 }
 
 .fbshare {
+  display: flex;
+  flex-direction: column-reverse;
   padding-left: 5px;
   padding-bottom: 3px;
+
 }
 
 .logo {
