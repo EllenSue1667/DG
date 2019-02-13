@@ -1158,10 +1158,12 @@ p a {
   .prev {
     display: flex;
     flex-grow: 1;
+    text-align: left;
   }
   .next {
     display: flex;
     flex-grow: 1;
+    text-align: right;
   }
   .symbol700 {
     display: flex;
