@@ -1014,7 +1014,7 @@ p a {
 }
 
 .footgplus {
-  padding-top: 8px;
+  display: none;
 }
 
 .prev {
@@ -1159,14 +1159,14 @@ p a {
     width: 40%;
   }
   .symbol700 {
-    display: none;
-  }
-  .symbol {
     display: flex;
     width: 20%;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .symbol {
+    display: none;
   }
 }
 
