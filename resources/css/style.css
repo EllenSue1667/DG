@@ -115,7 +115,8 @@ header {
 
 .fbshare {
   display: flex;
-  flex-direction: column-reverse;
+  justify-content: flex-end;
+  flex-direction: column;
   padding-left: 5px;
   padding-bottom: 3px;
 
