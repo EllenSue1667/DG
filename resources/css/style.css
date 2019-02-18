@@ -676,6 +676,21 @@ p a {
     font-size: .65rem;
 }
 
+.diagram .diagramvi {
+    visibility: visible;
+    background-color: rgba(172, 17, 17, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -7.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .75rem;
+}
+
 .diagram .diagramadj {
     visibility: visible;
     background-color: green;
