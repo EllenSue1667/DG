@@ -371,35 +371,35 @@ nav a:active {
 
  .verbs {
   font-weight: bold;
-  color: rgba(172, 17, 17, 1);
+  color: rgba(172, 17, 17, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .verbs1 {
   font-weight: bold;
-  color: rgba(172, 17, 17, 1);
+  color: rgba(172, 17, 17, 1) !important;
   font-size: 1rem;
   font-style: italic;
 }
 
 .nouns {
  font-weight: bold;
- color: rgba(0, 0, 184, 1);
+ color: rgba(0, 0, 184, 1) !important;
  font-size: 1.05rem;
  font-style: italic;
 }
 
 .pronouns {
   font-weight: bold;
-  color: rgba(9, 165, 160, 1);
+  color: rgba(9, 165, 160, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .contraction {
   font-weight: bold;
-  color: rgba(17, 120, 172, 1);
+  color: rgba(17, 120, 172, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
@@ -435,35 +435,35 @@ nav a:active {
 
 .adjectives {
   font-weight: bold;
-  color: green;
+  color: green !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .adverbs {
   font-weight: bold;
-  color: rgba(199, 92, 15, 1);
+  color: rgba(199, 92, 15, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .prepositions {
   font-weight: bold;
-  color: rgba(123, 18, 175, 1);
+  color: rgba(123, 18, 175, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .prepositions1 {
   font-weight: bold;
-  color: rgba(123, 18, 175, .60);
+  color: rgba(123, 18, 175, .60) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .conjunctions {
   font-weight: bold;
-  color: rgba(181, 175, 8, 1);
+  color: rgba(181, 175, 8, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
@@ -471,34 +471,34 @@ nav a:active {
 .interjection {
   font-weight: bold;
   color: #E3007B;
-  font-size: 1.05rem;
+  font-size: 1.05rem !important;
   font-style: italic;
 }
 
 .subject {
   font-weight: bold;
-  color: rgba(0, 116, 194, 1);
+  color: rgba(0, 116, 194, 1) !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .predicate {
   font-weight: bold;
-  color: #92a8d1;
+  color: #92a8d1 !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .object {
   font-weight: bold;
-  color: #618685;
+  color: #618685 !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .appositives {
   font-weight: bold;
-  color: #034f84;
+  color: #034f84 !important;
   font-size: 1.05rem;
   font-style: italic;
 }
