@@ -505,14 +505,14 @@ nav a:active {
 
 .indirect {
   font-weight: bold;
-  color: #b974a8;
+  color: #b974a8 !important;
   font-size: 1.05rem;
   font-style: italic;
 }
 
 .verbal {
   font-weight: bold;
-  color: #d1004b;
+  color: #d1004b !important;
   font-size: 1.05rem;
   font-style: italic;
 }
