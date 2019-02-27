@@ -470,8 +470,8 @@ nav a:active {
 
 .interjection {
   font-weight: bold;
-  color: #E3007B;
-  font-size: 1.05rem !important;
+  color: #E3007B !important;
+  font-size: 1.05rem;
   font-style: italic;
 }
 
