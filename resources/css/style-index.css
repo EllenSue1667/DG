@@ -117,6 +117,17 @@ header {
   padding-bottom: 5px;
 }
 
+.headerprint {
+  display: none;
+}
+
+.headerprint img {
+  margin: auto;
+  height: 80px;
+  width: auto;
+  padding-bottom: 2px;
+}
+
 .gplus {
   display: none;
 }
@@ -1045,4 +1056,47 @@ form {
     align-items: center;
     text-align: center;
   }
+}
+
+@media print {
+ /* All your print styles go here */
+    .header, nav, .left, .ad160, .ad120, .prev, .next, .ad728, .ad468f, .ad320f {
+      display: none;
+    }
+    .headerprint {
+      display: flex;
+      width: 648px;
+      margin: auto;
+      border-bottom: solid 1px hsla(60, 100%, 25%, 1);
+    }
+    .main {
+      margin: auto;
+    }
+    .definition .definitionterm {
+      visibility: visible;
+      background-color: lightgray;
+    }
+    .definition .definitionadj {
+      visibility: visible;
+      background-color: lightgray;
+      padding: 0px 0px;
+      font-size: .8rem;
+      margin-left: -22.5px;
+    }
+    .definition .definitionpronoun {
+      visibility: visible;
+      background-color: lightgray;
+      padding: 0px 0px;
+      font-size: .8rem;
+      margin-left: -22.5px;
+    }
+
+    .definition .definitionconj {
+      visibility: visible;
+      background-color: lightgray;
+      padding: 0px 0px;
+      font-size: .8rem;
+      margin-left: -17px;
+    }
+
 }
