@@ -737,6 +737,22 @@ p a {
 
 }
 
+.diagram .diagramNoA {
+    visibility: visible;
+    background-color: rgba(0, 0, 184, 1);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -13.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+
+}
+
 .diagram .diagramconj {
     visibility: visible;
     background-color: rgba(181, 175, 8, 1);
