@@ -700,7 +700,7 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -11.5px;
+    margin-left: -11px;
     position: absolute;
     z-index: 1;
     font-size: .65rem;
@@ -815,6 +815,36 @@ p a {
     z-index: 1;
     font-size: .65rem;
 
+}
+
+.diagram .diagrampred {
+    visibility: visible;
+    background-color: #92a8d1;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -10.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
+.diagram .diagramapp {
+    visibility: visible;
+    background-color: #034f84;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
 }
 
 .space1 {
