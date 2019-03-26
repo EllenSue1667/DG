@@ -601,7 +601,7 @@ p a {
 }
 
 .definition .definitionconj {
-    visibility: hidden;
+    visibility: visible;
     background-color: rgba(181, 175, 8, 1);
     color: #fff;
     text-align: center;
