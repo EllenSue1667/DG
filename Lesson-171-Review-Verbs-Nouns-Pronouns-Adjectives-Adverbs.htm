@@ -192,7 +192,58 @@
               <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
             </button>
           <div id="demo5" class="collapse">
-            Have you been here <span class="diagram"><span class="adverbs">long</span><span class="diagramadv">Adv</span></span>? Did you come by the <span class="space1">&nbsp;<br></span><span class="diagram"><span class="adjectives">back</span><span class="diagramadj">Adj</span></span> way?
+            Have you been here <span class="diagram"><span class="adverbs">long</span><span class="diagramadv">Adv</span></span>? Did you come by <span class="space1">&nbsp;<br></span>the <span class="diagram"><span class="adjectives">back</span><span class="diagramadj">Adj</span></span> way?
+          </div>
+        </div>
+
+        <p>6. I often <b>long</b> for the good old days of the '<i>50</i>'s.</p>
+        <div class="answer">
+            <button type="button" class="btn6 btn-default" data-toggle="collapse" data-target="#demo6">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo6" class="collapse">
+            I often <span class="diagram"><span class="verbs">long</span><span class="diagramv">V</span></span> for the good old days of the '<i>50</i>'s.
+          </div>
+        </div>
+
+        <p>7. State Street heads <b>south</b>, the <b>most</b> direct route.</p>
+        <div class="answer">
+            <button type="button" class="btn7 btn-default" data-toggle="collapse" data-target="#demo7">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo7" class="collapse">
+            State Street heads <span class="diagram"><span class="adverbs">south</span><span class="diagramadv">Adv</span></span>, the <span class="diagram"><span class="adverbs">most</span><span class="diagramadv">Adv</span></span> direct route.
+          </div>
+        </div>
+
+        <p>8. Citizens, on <b>most</b> summer days we have a <b>south</b> wind each evening.</p>
+        <div class="answer">
+            <button type="button" class="btn8 btn-default" data-toggle="collapse" data-target="#demo8">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo8" class="collapse">
+            Citizens, on <span class="diagram"><span class="adjectives">most</span><span class="diagramadj">Adj</span></span> summer days we have a <span class="diagram"><span class="adjectives">south</span><span class="diagramadj">Adj</span></span> wind each evening.
+          </div>
+        </div>
+
+        <p>9. Although the storm passed, the clouds were dark and gloomy.</p>
+        <div class="answer">
+            <button type="button" class="btn9 btn-default" data-toggle="collapse" data-target="#demo9">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo9" class="collapse">
+             <span class="definition"><span class="conjunctions">Although</span><span class="definitionconj1">subordinate</span></span> the storm passed, the clouds <span class="space1">&nbsp;<br></span>were dark <span class="definition"><span class="conjunctions">and</span><span class="definitionconj1">co-ordinate</span></span> gloomy.
+          </div>
+        </div>
+
+        <p>10. After the semester was over, my friend and I traveled to the Black Hills.</p>
+        <div class="answer">
+            <button type="button" class="btn10 btn-default" data-toggle="collapse" data-target="#demo10">
+              <span class="glyphicon glyphicon-collapse-down"></span> Show Answer
+            </button>
+          <div id="demo10" class="collapse">
+            <span class="definition"><span class="conjunctions">After</span><span class="definitionconj1">subordinate</span></span> the semester was over, my friend <span class="space1">&nbsp;<br></span><span class="definition"><span class="conjunctions">and</span><span class="definitionconj1">co-ordinate</span></span> I traveled to the
+            <span class="space4">&nbsp;<br></span>Black Hills.
           </div>
         </div>
 
@@ -350,6 +401,46 @@
       });
       $("#demo6").on("show.bs.collapse", function(){
         $(".btn6").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo7").on("hide.bs.collapse", function(){
+        $(".btn7").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo7").on("show.bs.collapse", function(){
+        $(".btn7").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo8").on("hide.bs.collapse", function(){
+        $(".btn8").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo8").on("show.bs.collapse", function(){
+        $(".btn8").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo9").on("hide.bs.collapse", function(){
+        $(".btn9").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo9").on("show.bs.collapse", function(){
+        $(".btn9").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $("#demo10").on("hide.bs.collapse", function(){
+        $(".btn10").html('<span class="glyphicon glyphicon-collapse-down"></span> Show Answer');
+      });
+      $("#demo10").on("show.bs.collapse", function(){
+        $(".btn10").html('<span class="glyphicon glyphicon-collapse-up"></span> Hide Answer');
       });
     });
     </script>
