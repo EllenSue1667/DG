@@ -141,6 +141,14 @@ header {
   padding-bottom: 4px;
 }
 
+.twitter {
+  padding-top: 2px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  margin: 0px;
+}
+
 .logo {
   text-align: center;
   flex-direction: row;
