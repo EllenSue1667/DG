@@ -118,8 +118,12 @@ header {
   justify-content: flex-end;
   flex-direction: column;
   flex-grow: 1;
-  padding-left: 4px;
-  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+.twitter-follow-button {
+  margin-top: 2px;
 }
 
 .logo {
