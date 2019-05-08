@@ -847,6 +847,22 @@ p a {
 
 }
 
+.diagram .diagramindirect {
+    visibility: visible;
+    background-color: #b974a8;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -10.5px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+
+}
+
 .diagram .diagrampred {
     visibility: visible;
     background-color: #92a8d1;
