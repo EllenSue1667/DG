@@ -951,7 +951,7 @@ p a {
   display: none;
 }
 
-@media only screen and (max-width: 925px) and (min-width: 701px) {
+@media only screen and (max-width: 925px) and (min-width: 729px) {
   .ad160 {
     display: none;
     }
@@ -989,7 +989,7 @@ p a {
 
 }
 
-@media only screen and (max-width: 700px) and (min-width: 468px) {
+@media only screen and (max-width: 728px) and (min-width: 468px) {
   .ad160 {
     display: none;
     }
