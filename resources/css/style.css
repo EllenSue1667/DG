@@ -24,6 +24,12 @@ h2 {
   margin: 0px;
 }
 
+.link {
+  font-size: 1rem;
+  padding: 8px 0px 0px 0px;
+  margin: 0px;
+}
+
 h3 {
   font-size: 1rem;
   padding: 0px;
@@ -1344,7 +1350,7 @@ p a {
 
 @media print {
  /* All your print styles go here */
-    .header, nav, .left, .ad160, .ad120, .prev, .next, .ad728, .ad468f, .ad320f {
+    .header, nav, .left, .ad160, .ad120, .prev, .next, .ad728, .ad468f, .ad320f, .link {
       display: none;
     }
     .headerprint {
