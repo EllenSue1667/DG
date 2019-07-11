@@ -927,6 +927,21 @@ p a {
     font-size: .65rem;
 }
 
+.diagram .diagramVbl {
+    visibility: visible;
+    background-color: #d1004b;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    z-index: 1;
+    font-size: .65rem;
+}
+
 .space1 {
   display: none;
 }
