@@ -968,10 +968,12 @@ p a {
 
 .definition:active .definitiontext {
   visibility: visible;
+  z-index: 2;
 }
 
 .definition:hover .definitiontext {
     visibility: visible;
+    z-index: 2;
 }
 
 .definition:active .definitionterm {
