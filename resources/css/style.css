@@ -536,6 +536,16 @@ p a {
   border-bottom: 1px dotted black;
 }
 
+.definition1 {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border-bottom: 1px solid darkgray;
+}
+
+
+
 .diagram {
   position: relative;
   display: inline-block;
@@ -636,6 +646,38 @@ p a {
     z-index: 1;
     font-size: .85rem;
     width: 70px;
+}
+
+.definition1 .definitionconj2 {
+    visibility: visible;
+    background-color: hsla(60, 100%, 31%, .90);
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -55px;
+    position: absolute;
+    z-index: 1;
+    font-size: .85rem;
+    width: 110px;
+}
+
+.definition1 .definitionadj {
+    visibility: visible;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 1;
+    font-size: .85rem;
+    width: 100px;
 }
 
 .diagram .diagraminterj {
@@ -942,6 +984,8 @@ p a {
     font-size: .65rem;
 }
 
+
+
 .space1 {
   display: none;
 }
@@ -1008,6 +1052,21 @@ p a {
     visibility: visible;
 }
 
+.definition1:active .definitionconj2 {
+  visibility: visible;
+}
+
+.definition1:hover .definitionconj2 {
+    visibility: visible;
+}
+
+.definition1:active .definitionadj {
+  visibility: visible;
+}
+
+.definition1:hover .definitionadj {
+  visibility: visible;
+}
 
 
 .ad468 {
