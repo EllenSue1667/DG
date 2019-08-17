@@ -693,7 +693,7 @@ p a {
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-
+    width: 86px;
 }
 
 .diagram .diagraminterj {
