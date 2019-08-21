@@ -736,11 +736,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -45px;
+    margin-left: -44px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-    width: 90px;
+    width: 88px;
 }
 
 
