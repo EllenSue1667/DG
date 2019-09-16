@@ -1196,6 +1196,7 @@ p a {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    border-top: lightgray 1px solid;
   }
   .definition .definitiontext {
       margin-left: -70px;
@@ -1242,6 +1243,7 @@ p a {
     display: flex;
     justify-content: center;
     border-bottom: lightgray 1px solid;
+    border-top: lightgray 1px solid;
   }
   .definition .definitiontext {
       margin-left: -70px;
