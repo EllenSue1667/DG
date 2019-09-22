@@ -659,11 +659,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -52px;
+    margin-left: -45px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-    
+
 }
 
 .definition1 .definitionadj {
