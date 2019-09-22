@@ -50,6 +50,8 @@ p {
 
 
 
+
+
 .open {
   font-size: 1rem;
   margin-top: 0rem;
@@ -661,7 +663,7 @@ p a {
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-
+    
 }
 
 .definition1 .definitionadj {
