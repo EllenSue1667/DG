@@ -675,11 +675,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -66px;
+    margin-left: -65px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-    width: 132px;
+    width: 130px;
 }
 
 .definition1 .definitionadj {
@@ -691,11 +691,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -54px;
+    margin-left: -53px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-    width: 108px;
+    width: 106px;
 }
 
 .definition1 .definitionadv {
