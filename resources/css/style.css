@@ -695,6 +695,22 @@ p a {
     position: absolute;
     z-index: 1;
     font-size: .85rem;
+    
+}
+
+.definition1 .definitionadj1 {
+    visibility: visible;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: .5px 3px;
+    border-radius: 6px;
+    top: 100%;
+    left: 50%;
+    margin-left: -55px;
+    position: absolute;
+    z-index: 1;
+    font-size: .85rem;
     width: 110px;
 }
 
