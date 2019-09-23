@@ -691,11 +691,11 @@ p a {
     border-radius: 6px;
     top: 100%;
     left: 50%;
-    margin-left: -47px;
+    margin-left: -60px;
     position: absolute;
     z-index: 1;
     font-size: .85rem;
-
+    width: 120px;
 }
 
 .definition1 .definitionadv {
