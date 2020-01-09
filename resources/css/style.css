@@ -378,6 +378,13 @@ nav a:active {
  font-style: italic;
 }
 
+.termsC {
+ font-weight: bold;
+ color: rgba(101, 88, 88, 1);
+ font-size: 1.05rem;
+ 
+}
+
  .verbs {
   font-weight: bold;
   color: rgba(172, 17, 17, 1) !important;
