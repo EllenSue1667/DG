@@ -45,8 +45,8 @@ p {
 .example {
   font-size: 1rem;
   margin-top: 0px;
-  padding-left: 20px;
-
+  padding-left: 25px;
+  margin-bottom: 10px;
 }
 
 
@@ -382,7 +382,7 @@ nav a:active {
  font-weight: bold;
  color: rgba(101, 88, 88, 1);
  font-size: 1.05rem;
- 
+
 }
 
  .verbs {
