@@ -594,7 +594,7 @@ nav a:active {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .archiveG {
@@ -686,6 +686,19 @@ nav a:active {
  font-size: 1.25rem;
 }
 
+.terms2 {
+ font-weight: bold;
+ color: black;
+ font-size: 1.05rem;
+ text-decoration: underline;
+}
+
+.termsdown {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
+  font-size: 1.25rem;
+}
+
 .verbs {
  font-weight: bold;
  color: rgba(172, 17, 17, 1);
@@ -698,7 +711,6 @@ nav a:active {
  color: rgba(172, 17, 17, 1);
  font-size: 1.05rem;
  text-decoration: underline;
-
 }
 
 .nouns {
@@ -799,10 +811,24 @@ nav a:active {
   font-size: 1.15rem;
 }
 
+.subject1 {
+  font-weight: bold;
+  color: rgba(0, 116, 194, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .predicate {
   font-weight: bold;
   color: #92a8d1;
   font-size: 1.15rem;
+}
+
+.predicate1 {
+  font-weight: bold;
+  color: #92a8d1;
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .object {
@@ -811,10 +837,24 @@ nav a:active {
   font-size: 1.15rem;
 }
 
+.object1 {
+  font-weight: bold;
+  color: #618685;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .appositives {
   font-weight: bold;
   color: #034f84;
   font-size: 1.15rem;
+}
+
+.appositives1 {
+  font-weight: bold;
+  color: #034f84;
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .indirect {
@@ -823,16 +863,37 @@ nav a:active {
   font-size: 1.15rem;
 }
 
+.indirect1 {
+  font-weight: bold;
+  color: #b974a8;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .verbal {
   font-weight: bold;
   color: #d1004b;
   font-size: 1.15rem;
 }
 
+.verbal1 {
+  font-weight: bold;
+  color: #d1004b;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .mechanics {
   font-weight: bold;
   color: hsla(60, 100%, 25%, 1);
   font-size: 1.15rem;
+}
+
+.mechanics1 {
+  font-weight: bold;
+  color: hsla(60, 100%, 25%, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .ad468 {
