@@ -565,6 +565,20 @@ nav a:active {
   border: lightgray 0px solid;
 }
 
+.btn53 {
+  border: lightgray 1px solid;
+
+}
+
+.btn54 {
+  border: lightgray 1px solid;
+
+}
+
+.btn55 {
+  border: lightgray 1px solid;
+}
+
 .archive {
   display: flex;
   flex-direction: column;
@@ -666,11 +680,25 @@ nav a:active {
  font-size: 1.15rem;
 }
 
+.terms1 {
+ font-weight: bold;
+ color: black;
+ font-size: 1.25rem;
+}
+
 .verbs {
  font-weight: bold;
  color: rgba(172, 17, 17, 1);
  font-size: 1.15rem;
  font-style: none;
+}
+
+.verbs1 {
+ font-weight: bold;
+ color: rgba(172, 17, 17, 1);
+ font-size: 1.05rem;
+ text-decoration: underline;
+
 }
 
 .nouns {
@@ -680,10 +708,24 @@ nav a:active {
  font-style: none;
 }
 
+.nouns1 {
+ font-weight: bold;
+ color: rgba(0, 0, 184, 1);
+ font-size: 1.05rem;
+ text-decoration: underline;
+}
+
 .pronouns {
   font-weight: bold;
   color: rgba(9, 165, 160, 1);
   font-size: 1.15rem;
+}
+
+.pronouns1 {
+  font-weight: bold;
+  color: rgba(9, 165, 160, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .adjectives {
@@ -692,10 +734,24 @@ nav a:active {
   font-size: 1.15rem;
 }
 
+.adjectives1 {
+  font-weight: bold;
+  color: Green;
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .adverbs {
   font-weight: bold;
   color: rgba(199, 92, 15, 1);
   font-size: 1.15rem;
+}
+
+.adverbs1 {
+  font-weight: bold;
+  color: rgba(199, 92, 15, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .prepositions {
@@ -704,16 +760,37 @@ nav a:active {
   font-size: 1.15rem;
 }
 
+.prepositions1 {
+  font-weight: bold;
+  color: rgba(123, 18, 175, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .conjunctions {
   font-weight: bold;
   color: rgba(181, 175, 8, 1);
   font-size: 1.15rem;
 }
 
+.conjunctions1 {
+  font-weight: bold;
+  color: rgba(181, 175, 8, 1);
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
 .interjection {
   font-weight: bold;
   color: #E3007B;
   font-size: 1.15rem;
+}
+
+.interjection1 {
+  font-weight: bold;
+  color: #E3007B;
+  font-size: 1.05rem;
+  text-decoration: underline;
 }
 
 .subject {
