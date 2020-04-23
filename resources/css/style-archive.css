@@ -1065,10 +1065,12 @@ form {
   }
   .archive_column1 {
     border-right: 0px solid lightgray;
+    width: 90%;
   }
   .archive_column2 {
     padding-top: 10px;
     padding-right: 5px;
+    width: 90%;
   }
   .glossary_nav {
     text-align: center;
@@ -1294,7 +1296,7 @@ form {
     width: 40%;
   }
   .space {
-    display: flex;
+    display: contents;
   }
 }
 
@@ -1343,7 +1345,7 @@ form {
     text-align: center;
   }
   .space {
-    display: flex;
+    display: contents;
   }
 }
 
