@@ -1245,6 +1245,10 @@ form {
   display: none;
 }
 
+.space {
+  display: none;
+}
+
 
 
 @media only screen and (max-width: 750px) and (min-width: 468px) {
@@ -1288,6 +1292,9 @@ form {
   }
   .next {
     width: 40%;
+  }
+  .space {
+    display: flex;
   }
 }
 
@@ -1334,6 +1341,9 @@ form {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .space {
+    display: flex;
   }
 }
 
