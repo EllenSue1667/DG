@@ -373,21 +373,21 @@ nav a:active {
 
 .terms1 {
  font-weight: bold;
- color: rgba(101, 88, 88, 1);
+ color: rgba(101, 88, 88, 1) !important;
  font-size: 1.05rem;
  font-style: italic;
 }
 
 .termsC {
  font-weight: bold;
- color: rgba(101, 88, 88, 1);
+ color: rgba(101, 88, 88, 1) !important;
  font-size: 1.05rem;
 
 }
 
 .termsA {
  font-weight: bold;
- color: rgba(101, 88, 88, 1);
+ color: rgba(101, 88, 88, 1) !important;
  font-size: 1.15rem;
 
 }
@@ -677,7 +677,7 @@ p a {
     margin-left: -35px;
     position: absolute;
     z-index: 1;
-    font-size: .85rem;
+    font-size: .75rem;
     width: 70px;
 }
 
